@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/Marineidyl/MarineRobert_3_03062021.git"
   },
-  "includePaths": [
-    "node_modules"
-  ],
   "author": "",
   "license": "ISC",
   "bugs": {

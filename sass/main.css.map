@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "mappings": "AAgBA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;CACzB",
+    "sources": [
+        "main.scss",
+        "base/_animations.scss",
+        "base/_base.scss",
+        "base/_typography.scss",
+        "components/_buttons.scss",
+        "layout/_container.scss",
+        "layout/_footer.scss",
+        "layout/_header.scss",
+        "layout/_nav.scss",
+        "utils/_functions.scss",
+        "utils/_mixins.scss",
+        "utils/_placeholders.scss",
+        "utils/_variables.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

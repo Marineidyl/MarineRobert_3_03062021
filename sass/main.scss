@@ -1,22 +1,19 @@
-@import "./base/base";
-@import "./base/typography";
+@import './base/animations';
+@import './base/base';
+@import './base/typography';
 
-@import "./components/buttons";
+@import './components/buttons';
 
-@import "./layouts/container";
-@import "./layouts/header";
-@import "./layouts/nav";
-@import "./layouts/footer";
+@import './layout/container';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/nav';
 
-@import "./pages/menu-palette-du-gout";
-@import "./pages/menu-delice-des-sens";
-@import "./pages/menu-note-enchantee";
-@import "./pages/menu-a-la-francaise";
+@import './utils/functions';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/variables';
 
-@import "./utils/functions";
-@import "./utils/mixins";
-@import "./utils/placeholders";
-@import "./utils/variables";
-
-
-
+body {
+    background-color: aqua;
+}
