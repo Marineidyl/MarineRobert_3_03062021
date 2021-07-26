@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAgBA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAkB;CACvC",
+    "mappings": "ASAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;CACzB",
     "sources": [
         "main.scss",
+        "utils/_mixins.scss",
+        "utils/_placeholders.scss",
+        "utils/_variables.scss",
         "base/_animations.scss",
         "base/_base.scss",
         "base/_typography.scss",
@@ -10,11 +13,7 @@
         "layout/_container.scss",
         "layout/_footer.scss",
         "layout/_header.scss",
-        "layout/_nav.scss",
-        "utils/_functions.scss",
-        "utils/_mixins.scss",
-        "utils/_placeholders.scss",
-        "utils/_variables.scss"
+        "layout/_nav.scss"
     ],
     "names": [],
     "file": "main.css"
