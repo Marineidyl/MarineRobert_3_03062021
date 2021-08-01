@@ -21,7 +21,6 @@ body {
     .localisation {
         text-align: center;
         margin: 10px 10px;
-
     }
 
     .about {
@@ -38,12 +37,17 @@ body {
         &__lists {
             padding: 0;
         }
-
         &__list {
             display: flex;
             list-style: none;
             align-items: center;
             padding: initial;
+        }
+        &__number {
+            width: 30px;
+        }
+        &__iconmobile , &__iconlist , &__iconstore {
+            width: 30px;
         }
     }
 

@@ -52,6 +52,12 @@ body {
             align-items: center;
     padding: initial;
   }
+  .functioning__number {
+    width: 30px;
+  }
+  .functioning__iconmobile, .functioning__iconlist, .functioning__iconstore {
+    width: 30px;
+  }
   .restaurants__image {
     width: 150px;
     height: 150px;
