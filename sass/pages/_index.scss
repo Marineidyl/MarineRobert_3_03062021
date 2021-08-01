@@ -11,6 +11,8 @@ body {
     }
 
     .header {
+        margin: 10px 10px;
+
         &__logo {
             text-align: center;
         }
@@ -18,18 +20,31 @@ body {
 
     .localisation {
         text-align: center;
+        margin: 10px 10px;
+
     }
 
-    .about__elements {
-        text-align: center;
+    .about {
+        margin: 10px 10px;
+
+        &__elements {
+            text-align: center;
+        }
     }
 
-    .functioning__list {
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-        align-items: center;
-        padding: initial;
+    .functioning {
+        margin: 10px 10px;
+
+        &__lists {
+            padding: 0;
+        }
+
+        &__list {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: initial;
+        }
     }
 
 

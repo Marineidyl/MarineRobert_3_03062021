@@ -20,22 +20,32 @@ body {
   body {
     background-color: #fff673;
   }
+  .header {
+    margin: 10px 10px;
+  }
   .header__logo {
     text-align: center;
   }
   .localisation {
     text-align: center;
+    margin: 10px 10px;
+  }
+  .about {
+    margin: 10px 10px;
   }
   .about__elements {
     text-align: center;
+  }
+  .functioning {
+    margin: 10px 10px;
+  }
+  .functioning__lists {
+    padding: 0;
   }
   .functioning__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     list-style: none;
     -webkit-box-align: center;
         -ms-flex-align: center;
