@@ -7,9 +7,10 @@ body {
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px){
     body {
-        background-color:rgb(255, 246, 115);
+        background-color:white;
     }
 
+    /*Header*/ 
     .header {
         margin: 10px 10px;
 
@@ -35,28 +36,89 @@ body {
         margin: 10px 10px;
 
         &__lists {
-            padding: 0;
+            padding: 0px 0px 0px 15px;
         }
         &__list {
             display: flex;
             list-style: none;
             align-items: center;
             padding: initial;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: #F2F2F2;
         }
         &__number {
-            width: 30px;
+            border-radius: 15px;
+            background-color: #9356DC;
+            padding: 6px 10px;
+            margin: -15px;
         }
         &__iconmobile , &__iconlist , &__iconstore {
-            width: 30px;
+            padding: 0 25px 0 25px;
         }
     }
-
-
+    /*Main*/ 
     .restaurants {
-       &__image {
-           width: 150px;
-           height: 150px;
-       }
+        background-color: #F2F2F2;
+        padding: 10px 10px;
+
+        &__link {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }        
+        &__elements {
+            border-radius: 25px;
+        }
+        &__image {
+            width: 300px;
+            height: 170px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            object-fit: cover;
+        }
+        &__elementdescription {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        &__descriptiontext {
+            margin: 0;
+            padding: 0px 150px 5px 10px;
+        }
+        &__descriptiontitle {
+            margin: 0;
+            padding: 0px 150px 5px 10px;
+        }
+        &__descriptionicon1 {
+            padding: 15px 0 0 10px;
+        }
+        &__descriptionicon2 {
+            padding: 15px 0px 0 40px;
+        }
+        &__descriptionicon3 {
+            padding: 15px 0px 0 35px;
+        }
+        &__descriptionicon4 {
+            padding: 15px 0px 0px 0px
+        }
+        &__section1, &__section2, &__section3, &__section4 {
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+
+    }
+    /*Footer*/
+    .footer {
+        background-color: gray;
+        padding: 1px 10px;
+        &__lists {
+            padding: 0;
+        }
+        &__list {
+            text-decoration: none;
+            list-style-type: none;
+        }
     }
     
 }
