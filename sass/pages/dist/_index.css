@@ -1,15 +1,3 @@
-h1, h6 {
-  font-family: Shrikhand, Roboto, sans-serif;
-}
-
-body, html {
-  font-family: 'Roboto', sans-serif;
-}
-
-body {
-  background-color: aqua;
-}
-
 body {
   background-color: pink;
   margin: 0 auto;
@@ -18,69 +6,53 @@ body {
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
   body {
-    background-color: #fff673;
+    background-color: #5f5a11;
   }
-  .header__logo {
+
+  header__logo {
     text-align: center;
   }
+
   .localisation {
     text-align: center;
   }
+
   .about__elements {
     text-align: center;
   }
-  .functioning__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    list-style: none;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: initial;
-  }
+
   .restaurants__image {
     width: 150px;
     height: 150px;
   }
 }
-
 @media only screen and (min-width: 360px) and (max-width: 374px) {
   body {
     background-color: #cc6274;
   }
 }
-
 @media only screen and (min-width: 375px) and (max-width: 383px) {
   body {
     background-color: #7962cc;
   }
 }
-
 @media only screen and (min-width: 384px) and (max-width: 409px) {
   body {
     background-color: #9ecc62;
   }
 }
-
 @media only screen and (min-width: 411px) and (max-width: 411px) {
   body {
     background-color: #62ccbe;
   }
 }
-
 @media only screen and (min-width: 412px) and (max-width: 413px) {
   body {
     background-color: #3f2b14;
   }
 }
-
 @media only screen and (min-width: 414px) and (max-width: 599px) {
   body {
     background-color: #173cb4;
   }
 }
-/*# sourceMappingURL=main.css.map */

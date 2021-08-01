@@ -1,5 +1,6 @@
-    body {
-        background-color:pink;
+body {
+    background-color:pink;
+    margin: 0 auto;
 }
 
 
@@ -8,6 +9,30 @@
     body {
         background-color:rgb(255, 246, 115);
     }
+
+    .header {
+        &__logo {
+            text-align: center;
+        }
+    }
+
+    .localisation {
+        text-align: center;
+    }
+
+    .about__elements {
+        text-align: center;
+    }
+
+    .functioning__list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+        padding: initial;
+    }
+
+
     .restaurants {
        &__image {
            width: 150px;
