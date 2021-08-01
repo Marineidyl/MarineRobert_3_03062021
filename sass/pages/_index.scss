@@ -124,19 +124,346 @@ body {
 
 @media only screen and (min-width: 360px) and (max-width: 374px){
     body {
-        background-color:rgb(204, 98, 116);
+        background-color:rgb(255, 255, 255);
+    }
+    /*Header*/ 
+    .header {
+        margin: 10px 10px;
+
+        &__logo {
+            text-align: center;
+        }
+    }
+
+    .localisation {
+        text-align: center;
+        margin: 10px 10px;
+    }
+
+    .about {
+        margin: 10px 10px;
+
+        &__elements {
+            text-align: center;
+        }
+    }
+
+    .functioning {
+        margin: 10px 10px;
+
+        &__lists {
+            padding: 0px 0px 0px 15px;
+        }
+        &__list {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: initial;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: #F2F2F2;
+        }
+        &__number {
+            border-radius: 15px;
+            background-color: #9356DC;
+            padding: 6px 10px;
+            margin: -15px;
+        }
+        &__iconmobile , &__iconlist , &__iconstore {
+            padding: 0 25px 0 25px;
+        }
+    }
+    /*Main*/ 
+    .restaurants {
+        background-color: #F2F2F2;
+        padding: 10px 10px;
+
+        &__link {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }        
+        &__elements {
+            border-radius: 25px;
+        }
+        &__image {
+            width: 340px;
+            height: 170px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            object-fit: cover;
+        }
+        &__elementdescription {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        &__descriptiontext {
+            margin: 0;
+            padding: 0px 150px 5px 10px;
+        }
+        &__descriptiontitle {
+            margin: 0;
+            padding: 0px 65px 5px 10px;
+        }
+        &__descriptionicon1 {
+            padding: 15px 0 0 90px;
+        }
+        &__descriptionicon2 {
+            padding: 15px 0px 0 88px;
+        }
+        &__descriptionicon3 {
+            padding: 15px 0px 0 124px;
+        }
+        &__descriptionicon4 {
+            padding: 15px 0px 0px 90px;
+        }
+        &__section1, &__section2, &__section3, &__section4 {
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+
+    }
+    /*Footer*/
+    .footer {
+        background-color: gray;
+        padding: 1px 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        list-style-type: none;
+        &__lists {
+            padding: 0;
+        }
     }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
     body {
-        background-color:rgb(121, 98, 204);
+        background-color:rgb(255, 255, 255);
+    }
+    /*Header*/ 
+    .header {
+        margin: 10px 10px;
+
+        &__logo {
+            text-align: center;
+        }
+    }
+
+    .localisation {
+        text-align: center;
+        margin: 10px 10px;
+    }
+
+    .about {
+        margin: 10px 10px;
+
+        &__elements {
+            text-align: center;
+        }
+    }
+
+    .functioning {
+        margin: 10px 10px;
+
+        &__lists {
+            padding: 0px 0px 0px 15px;
+        }
+        &__list {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: initial;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: #F2F2F2;
+        }
+        &__number {
+            border-radius: 15px;
+            background-color: #9356DC;
+            padding: 6px 10px;
+            margin: -15px;
+        }
+        &__iconmobile , &__iconlist , &__iconstore {
+            padding: 0 25px 0 25px;
+        }
+    }
+    /*Main*/ 
+    .restaurants {
+        background-color: #F2F2F2;
+        padding: 10px 10px;
+
+        &__link {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }        
+        &__elements {
+            border-radius: 25px;
+        }
+        &__image {
+            width: 355px;
+            height: 170px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            object-fit: cover;
+        }
+        &__elementdescription {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        &__descriptiontext {
+            margin: 0;
+            padding: 0px 150px 5px 10px;
+        }
+        &__descriptiontitle {
+            margin: 0;
+            padding: 0px 65px 5px 10px;
+        }
+        &__descriptionicon1 {
+            padding: 15px 0 0 55px;
+        }
+        &__descriptionicon2 {
+            padding: 15px 0px 0 52px;
+        }
+        &__descriptionicon3 {
+            padding: 15px 0px 0 88px;
+        }
+        &__descriptionicon4 {
+            padding: 15px 0px 0px 54px;
+        }
+        &__section1, &__section2, &__section3, &__section4 {
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+
+    }
+    /*Footer*/
+    .footer {
+        background-color: gray;
+        padding: 1px 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        list-style-type: none;
+        &__lists {
+            padding: 0;
+        }
     }
 }
 
 @media only screen and (min-width: 384px) and (max-width: 409px) {
     body {
-        background-color:rgb(158, 204, 98);
+        background-color:rgb(255, 255, 255);
+    }
+    /*Header*/ 
+    .header {
+        margin: 10px 10px;
+
+        &__logo {
+            text-align: center;
+        }
+    }
+
+    .localisation {
+        text-align: center;
+        margin: 10px 10px;
+    }
+
+    .about {
+        margin: 10px 10px;
+
+        &__elements {
+            text-align: center;
+        }
+    }
+
+    .functioning {
+        margin: 10px 10px;
+
+        &__lists {
+            padding: 0px 0px 0px 15px;
+        }
+        &__list {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: initial;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: #F2F2F2;
+        }
+        &__number {
+            border-radius: 15px;
+            background-color: #9356DC;
+            padding: 6px 10px;
+            margin: -15px;
+        }
+        &__iconmobile , &__iconlist , &__iconstore {
+            padding: 0 25px 0 25px;
+        }
+    }
+    /*Main*/ 
+    .restaurants {
+        background-color: #F2F2F2;
+        padding: 10px 10px;
+
+        &__link {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }        
+        &__elements {
+            border-radius: 25px;
+        }
+        &__image {
+            width: 365px;
+            height: 170px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            object-fit: cover;
+        }
+        &__elementdescription {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        &__descriptiontext {
+            margin: 0;
+            padding: 0px 150px 5px 10px;
+        }
+        &__descriptiontitle {
+            margin: 0;
+            padding: 0px 65px 5px 10px;
+        }
+        &__descriptionicon1 {
+            padding: 15px 0 0 120px;
+        }
+        &__descriptionicon2 {
+            padding: 15px 0px 0 117px;
+        }
+        &__descriptionicon3 {
+            padding: 15px 0px 0 152px;
+        }
+        &__descriptionicon4 {
+            padding: 15px 0px 0px 118px;
+        }
+        &__section1, &__section2, &__section3, &__section4 {
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+
+    }
+    /*Footer*/
+    .footer {
+        background-color: gray;
+        padding: 1px 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        list-style-type: none;
+        &__lists {
+            padding: 0;
+        }
     }
 }
 
@@ -149,6 +476,115 @@ body {
 @media only screen and (min-width: 412px) and (max-width: 413px) {
     body {
         background-color:rgb(63, 43, 20);
+    }
+    /*Header*/ 
+    .header {
+        margin: 10px 10px;
+
+        &__logo {
+            text-align: center;
+        }
+    }
+
+    .localisation {
+        text-align: center;
+        margin: 10px 10px;
+    }
+
+    .about {
+        margin: 10px 10px;
+
+        &__elements {
+            text-align: center;
+        }
+    }
+
+    .functioning {
+        margin: 10px 10px;
+
+        &__lists {
+            padding: 0px 0px 0px 15px;
+        }
+        &__list {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: initial;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: #F2F2F2;
+        }
+        &__number {
+            border-radius: 15px;
+            background-color: #9356DC;
+            padding: 6px 10px;
+            margin: -15px;
+        }
+        &__iconmobile , &__iconlist , &__iconstore {
+            padding: 0 25px 0 25px;
+        }
+    }
+    /*Main*/ 
+    .restaurants {
+        background-color: #F2F2F2;
+        padding: 10px 10px;
+
+        &__link {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }        
+        &__elements {
+            border-radius: 25px;
+        }
+        &__image {
+            width: 392px;
+            height: 170px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            object-fit: cover;
+        }
+        &__elementdescription {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        &__descriptiontext {
+            margin: 0;
+            padding: 0px 150px 5px 10px;
+        }
+        &__descriptiontitle {
+            margin: 0;
+            padding: 0px 65px 5px 10px;
+        }
+        &__descriptionicon1 {
+            padding: 15px 0 0 145px;
+        }
+        &__descriptionicon2 {
+            padding: 15px 0px 0 142px;
+        }
+        &__descriptionicon3 {
+            padding: 15px 0px 0 177px;
+        }
+        &__descriptionicon4 {
+            padding: 15px 0px 0px 144px;
+        }
+        &__section1, &__section2, &__section3, &__section4 {
+            margin-bottom: 25px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+
+    }
+    /*Footer*/
+    .footer {
+        background-color: gray;
+        padding: 1px 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        list-style-type: none;
+        &__lists {
+            padding: 0;
+        }
     }
 }
 
