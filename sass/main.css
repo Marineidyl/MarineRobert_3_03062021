@@ -1,4 +1,51 @@
 body {
   background-color: aqua;
 }
+
+body {
+  background-color: pink;
+}
+
+/* Mobiles */
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  body {
+    background-color: #fff673;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+  body {
+    background-color: #cc6274;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 383px) {
+  body {
+    background-color: #7962cc;
+  }
+}
+
+@media only screen and (min-width: 384px) and (max-width: 409px) {
+  body {
+    background-color: #9ecc62;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 411px) {
+  body {
+    background-color: #62ccbe;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 413px) {
+  body {
+    background-color: #3f2b14;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 599px) {
+  body {
+    background-color: #173cb4;
+  }
+}
 /*# sourceMappingURL=main.css.map */

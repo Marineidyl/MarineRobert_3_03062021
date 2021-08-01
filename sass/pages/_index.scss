@@ -1,0 +1,47 @@
+    body {
+        background-color:pink;
+}
+
+
+/* Mobiles */
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    body {
+        background-color:rgb(255, 246, 115);
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px){
+    body {
+        background-color:rgb(204, 98, 116);
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 383px) {
+    body {
+        background-color:rgb(121, 98, 204);
+    }
+}
+
+@media only screen and (min-width: 384px) and (max-width: 409px) {
+    body {
+        background-color:rgb(158, 204, 98);
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 411px) {
+    body {
+        background-color:rgb(98, 204, 190);
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 413px) {
+    body {
+        background-color:rgb(63, 43, 20);
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 599px) {
+    body {
+        background-color:rgb(23, 60, 180);
+    }
+}

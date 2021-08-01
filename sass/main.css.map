@@ -1,11 +1,8 @@
 {
     "version": 3,
-    "mappings": "ASAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;CACzB",
+    "mappings": "AMAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;CACzB;;AGFG,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAC,IAAI;CAC5B;;AAGD,aAAa;AACb,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3D,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,OAAkB;GACtC;;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3D,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,OAAiB;GACrC;;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3D,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,OAAiB;GACrC;;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3D,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,OAAiB;GACrC;;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3D,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,OAAiB;GACrC;;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3D,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,OAAe;GACnC;;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3D,AAAA,IAAI,CAAC;IACD,gBAAgB,EAAC,OAAgB;GACpC",
     "sources": [
         "main.scss",
-        "utils/_mixins.scss",
-        "utils/_placeholders.scss",
-        "utils/_variables.scss",
         "base/_animations.scss",
         "base/_base.scss",
         "base/_typography.scss",
@@ -13,7 +10,16 @@
         "layout/_container.scss",
         "layout/_footer.scss",
         "layout/_header.scss",
-        "layout/_nav.scss"
+        "layout/_nav.scss",
+        "pages/_index.scss",
+        "pages/_menu-a-la-francaise.scss",
+        "pages/_menu-delice-des-sens.scss",
+        "pages/_menu-note-enchantee.scss",
+        "pages/_menu-palette-du-gout.scss",
+        "utils/_functions.scss",
+        "utils/_helpers.scss",
+        "utils/_mixins.scss",
+        "utils/_variables.scss"
     ],
     "names": [],
     "file": "main.css"
