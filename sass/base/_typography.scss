@@ -2,13 +2,15 @@ h1, h6 {
     font-family: Shrikhand, Roboto, sans-serif;
     text-decoration: none;
 }
-  body, html {
+body, html {
     font-family: 'Roboto', sans-serif;
 }
 
 a:link 
 { 
- text-decoration:none; 
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
 } 
 
 .footer {

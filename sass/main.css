@@ -9,6 +9,8 @@ body, html {
 
 a:link {
   text-decoration: none;
+  list-style-type: none;
+  color: black;
 }
 
 .footer__title {
@@ -131,13 +133,12 @@ body {
   .footer {
     background-color: gray;
     padding: 1px 10px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
   }
   .footer__lists {
     padding: 0;
-  }
-  .footer__list {
-    text-decoration: none;
-    list-style-type: none;
   }
 }
 

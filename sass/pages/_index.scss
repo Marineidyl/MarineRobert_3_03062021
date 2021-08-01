@@ -112,12 +112,11 @@ body {
     .footer {
         background-color: gray;
         padding: 1px 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        list-style-type: none;
         &__lists {
             padding: 0;
-        }
-        &__list {
-            text-decoration: none;
-            list-style-type: none;
         }
     }
     
