@@ -8,6 +8,13 @@
     body {
         background-color:rgb(255, 246, 115);
     }
+    .restaurants {
+       &__image {
+           width: 150px;
+           height: 150px;
+       }
+    }
+    
 }
 
 @media only screen and (min-width: 360px) and (max-width: 374px){
