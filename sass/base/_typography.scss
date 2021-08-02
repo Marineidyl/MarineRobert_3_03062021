@@ -21,3 +21,24 @@ a:link
     font-family: $fonts_shrikhand_roboto;
   }
 }
+/*Page index*/ 
+.about {
+  &__button {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+/*Pages Menu*/ 
+.header {
+  &__text {
+      text-align: center;
+      font-size: 25px;
+  }
+}
+
+.menu {
+  &__name {
+    font-size: 25px;
+  }
+}
