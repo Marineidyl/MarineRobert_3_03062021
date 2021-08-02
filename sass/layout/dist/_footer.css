@@ -4,8 +4,8 @@
   padding: 1px 10px;
   color: white;
   text-decoration: none;
-  list-style-type: none;
 }
 .footer__lists {
   padding: 0;
+  list-style-type: none;
 }
