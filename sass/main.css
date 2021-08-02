@@ -863,7 +863,7 @@ a:link {
   }
   .header__image {
     width: 320px;
-    height: 190px;
+    height: 235px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -880,8 +880,13 @@ a:link {
     display: flex;
   }
   .menu {
-    background-color: cadetblue;
-    border-radius: 40px;
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
   }
   .menu__name {
     margin: 0;
