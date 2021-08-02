@@ -1,9 +1,12 @@
+$fonts_shrikhand_roboto: 'Shrikhand', 'Roboto', sans-serif;
+$font_roboto: 'Roboto', sans-serif;
+
 h1, h6 {
-    font-family: Shrikhand, Roboto, sans-serif;
+    font-family: $fonts_shrikhand_roboto;
     text-decoration: none;
 }
 body, html {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font_roboto;
 }
 
 a:link 

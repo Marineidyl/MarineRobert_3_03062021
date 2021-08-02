@@ -1,10 +1,10 @@
 h1, h6 {
-  font-family: Shrikhand, Roboto, sans-serif;
+  font-family: "Shrikhand", "Roboto", sans-serif;
   text-decoration: none;
 }
 
 body, html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a:link {
@@ -825,5 +825,9 @@ body {
     border-radius: 15px;
     background-color: white;
   }
+}
+
+body {
+  background-color: burlywood;
 }
 /*# sourceMappingURL=main.css.map */
