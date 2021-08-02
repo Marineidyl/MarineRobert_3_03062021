@@ -1,21 +1,16 @@
 @import './base/animations';
-@import './base/base';
 @import './base/typography';
 
 @import './components/buttons';
 
-@import './layout/container';
 @import './layout/footer';
-@import './layout/header';
-@import './layout/nav';
-
+@import './layout/headerpages';
 
 @import './pages/index';
 @import './pages/menu-a-la-francaise';
 @import './pages/menu-delice-des-sens';
 @import './pages/menu-note-enchantee';
 @import './pages/menu-palette-du-gout';
-
 
 @import './utils/functions';
 @import './utils/helpers';

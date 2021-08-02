@@ -1,5 +1,5 @@
 body {
-    background-color:pink;
+    background-color:rgb(150, 150, 150);
     margin: 0 auto;
 }
 
@@ -23,6 +23,14 @@ body {
         text-align: center;
         background-color: #F2F2F2;
         padding: 15px 0px 15px 0px;
+        &__text {
+            background-color: #F2F2F2;
+            border-top: solid #F2F2F2 1px;
+            border-bottom: solid #F2F2F2 1px;
+            border-left: none;
+            border-right: none;
+            width: 90px;
+        }
     }
 
     .about {
@@ -107,20 +115,7 @@ body {
             border-radius: 15px;
             background-color: rgb(255, 255, 255);
         }
-
     }
-    /*Footer*/
-    .footer {
-        background-color: gray;
-        padding: 1px 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        list-style-type: none;
-        &__lists {
-            padding: 0;
-        }
-    }
-    
 }
 
 @media only screen and (min-width: 360px) and (max-width: 374px){
@@ -140,6 +135,14 @@ body {
         text-align: center;
         background-color: #F2F2F2;
         padding: 15px 0px 15px 0px;
+        &__text {
+            background-color: #F2F2F2;
+            border-top: solid #F2F2F2 1px;
+            border-bottom: solid #F2F2F2 1px;
+            border-left: none;
+            border-right: none;
+            width: 90px;
+        }
     }
 
     .about {
@@ -226,17 +229,7 @@ body {
         }
 
     }
-    /*Footer*/
-    .footer {
-        background-color: gray;
-        padding: 1px 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        list-style-type: none;
-        &__lists {
-            padding: 0;
-        }
-    }
+
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
@@ -256,6 +249,14 @@ body {
         text-align: center;
         background-color: #F2F2F2;
         padding: 15px 0px 15px 0px;
+        &__text {
+            background-color: #F2F2F2;
+            border-top: solid #F2F2F2 1px;
+            border-bottom: solid #F2F2F2 1px;
+            border-left: none;
+            border-right: none;
+            width: 90px;
+        }
     }
 
     .about {
@@ -324,16 +325,16 @@ body {
             padding: 0px 65px 5px 10px;
         }
         &__descriptionicon1 {
-            padding: 15px 0 0 55px;
+            padding: 15px 0 0 110px;
         }
         &__descriptionicon2 {
-            padding: 15px 0px 0 52px;
+            padding: 15px 0px 0 107px;
         }
         &__descriptionicon3 {
-            padding: 15px 0px 0 88px;
+            padding: 15px 0px 0 142px;
         }
         &__descriptionicon4 {
-            padding: 15px 0px 0px 54px;
+            padding: 15px 0px 0px 108px;
         }
         &__section1, &__section2, &__section3, &__section4 {
             margin-bottom: 25px;
@@ -341,17 +342,6 @@ body {
             background-color: rgb(255, 255, 255);
         }
 
-    }
-    /*Footer*/
-    .footer {
-        background-color: gray;
-        padding: 1px 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        list-style-type: none;
-        &__lists {
-            padding: 0;
-        }
     }
 }
 
@@ -372,6 +362,14 @@ body {
         text-align: center;
         background-color: #F2F2F2;
         padding: 15px 0px 15px 0px;
+        &__text {
+            background-color: #F2F2F2;
+            border-top: solid #F2F2F2 1px;
+            border-bottom: solid #F2F2F2 1px;
+            border-left: none;
+            border-right: none;
+            width: 90px;
+        }
     }
 
     .about {
@@ -458,17 +456,7 @@ body {
         }
 
     }
-    /*Footer*/
-    .footer {
-        background-color: gray;
-        padding: 1px 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        list-style-type: none;
-        &__lists {
-            padding: 0;
-        }
-    }
+
 }
 
 @media only screen and (min-width: 411px) and (max-width: 411px) {
@@ -488,6 +476,14 @@ body {
         text-align: center;
         background-color: #F2F2F2;
         padding: 15px 0px 15px 0px;
+        &__text {
+            background-color: #F2F2F2;
+            border-top: solid #F2F2F2 1px;
+            border-bottom: solid #F2F2F2 1px;
+            border-left: none;
+            border-right: none;
+            width: 90px;
+        }
     }
 
     .about {
@@ -574,17 +570,7 @@ body {
         }
 
     }
-    /*Footer*/
-    .footer {
-        background-color: gray;
-        padding: 1px 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        list-style-type: none;
-        &__lists {
-            padding: 0;
-        }
-    }
+
 }
 
 @media only screen and (min-width: 412px) and (max-width: 413px) {
@@ -604,6 +590,14 @@ body {
         text-align: center;
         background-color: #F2F2F2;
         padding: 15px 0px 15px 0px;
+        &__text {
+            background-color: #F2F2F2;
+            border-top: solid #F2F2F2 1px;
+            border-bottom: solid #F2F2F2 1px;
+            border-left: none;
+            border-right: none;
+            width: 90px;
+        }
     }
 
     .about {
@@ -690,17 +684,7 @@ body {
         }
 
     }
-    /*Footer*/
-    .footer {
-        background-color: gray;
-        padding: 1px 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        list-style-type: none;
-        &__lists {
-            padding: 0;
-        }
-    }
+
 }
 
 @media only screen and (min-width: 414px) and (max-width: 599px) {
@@ -720,6 +704,14 @@ body {
         text-align: center;
         background-color: #F2F2F2;
         padding: 15px 0px 15px 0px;
+        &__text {
+            background-color: #F2F2F2;
+            border-top: solid #F2F2F2 1px;
+            border-bottom: solid #F2F2F2 1px;
+            border-left: none;
+            border-right: none;
+            width: 90px;
+        }
     }
 
     .about {
@@ -805,15 +797,5 @@ body {
             background-color: rgb(255, 255, 255);
         }
     }
-    /*Footer*/
-    .footer {
-        background-color: gray;
-        padding: 1px 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        list-style-type: none;
-        &__lists {
-            padding: 0;
-        }
-    }
+
 }
