@@ -30,15 +30,11 @@ a:link {
   padding: 0;
 }
 
-body {
-  background-color: #969696;
-  margin: 0 auto;
-}
-
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
   body {
     background-color: white;
+    margin: 0;
   }
   /*Header*/
   .header {
@@ -152,6 +148,7 @@ body {
 @media only screen and (min-width: 360px) and (max-width: 374px) {
   body {
     background-color: white;
+    margin: 0;
   }
   /*Header*/
   .header {
@@ -265,6 +262,7 @@ body {
 @media only screen and (min-width: 375px) and (max-width: 383px) {
   body {
     background-color: white;
+    margin: 0;
   }
   /*Header*/
   .header {
@@ -378,6 +376,7 @@ body {
 @media only screen and (min-width: 384px) and (max-width: 409px) {
   body {
     background-color: white;
+    margin: 0;
   }
   /*Header*/
   .header {
@@ -491,6 +490,7 @@ body {
 @media only screen and (min-width: 411px) and (max-width: 411px) {
   body {
     background-color: white;
+    margin: 0;
   }
   /*Header*/
   .header {
@@ -604,6 +604,7 @@ body {
 @media only screen and (min-width: 412px) and (max-width: 413px) {
   body {
     background-color: white;
+    margin: 0;
   }
   /*Header*/
   .header {
@@ -717,6 +718,7 @@ body {
 @media only screen and (min-width: 414px) and (max-width: 599px) {
   body {
     background-color: white;
+    margin: 0;
   }
   /*Header*/
   .header {
@@ -825,9 +827,5 @@ body {
     border-radius: 15px;
     background-color: white;
   }
-}
-
-body {
-  background-color: burlywood;
 }
 /*# sourceMappingURL=main.css.map */
