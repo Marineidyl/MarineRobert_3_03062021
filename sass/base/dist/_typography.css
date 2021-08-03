@@ -32,3 +32,6 @@ a:link {
 .menu__name {
   font-size: 25px;
 }
+.menu__presentation {
+  font-size: 13px;
+}

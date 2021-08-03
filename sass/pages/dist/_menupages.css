@@ -34,6 +34,36 @@
   }
   .menu__name {
     margin: 0;
+    padding: 20px 0px 5px 15px;
+  }
+  .menu_title {
+    display: flex;
+    align-items: center;
+  }
+  .menu__icon {
+    padding: 10px 0px 0px 55px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0 0 0;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 374px) {

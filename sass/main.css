@@ -33,6 +33,10 @@ a:link {
   font-size: 25px;
 }
 
+.menu__presentation {
+  font-size: 13px;
+}
+
 .about__button {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
@@ -890,6 +894,43 @@ a:link {
   }
   .menu__name {
     margin: 0;
+    padding: 20px 0px 5px 15px;
+  }
+  .menu_title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu__icon {
+    padding: 10px 0px 0px 55px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 25px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0 0 0;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
   }
 }
 
