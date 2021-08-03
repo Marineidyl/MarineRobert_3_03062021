@@ -4,18 +4,19 @@
     border-radius: 50px;
     height: 40px;
     }
+}
 
-    .order {
-        text-align: center;
-        padding: 15px 0px 40px 0;
-        &__button {
-            width: 135px;  
-        }    
-    }
-    .about {
-        &__button {
-            width: 190px;
-        }
+.order {
+    text-align: center;
+    padding: 15px 0px 40px 0;
+    &__button {
+        width: 135px;  
+    }    
+}
+.about {
+    &__button {
+        width: 190px;
     }
 }
+
 

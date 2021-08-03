@@ -50,16 +50,16 @@ a:link {
   height: 40px;
 }
 
-.about .order, .order .order {
+.order {
   text-align: center;
   padding: 15px 0px 40px 0;
 }
 
-.about .order__button, .order .order__button {
+.order__button {
   width: 135px;
 }
 
-.about .about__button, .order .about__button {
+.about__button {
   width: 190px;
 }
 
