@@ -13,7 +13,6 @@ a:link
 { 
   text-decoration: none;
   list-style-type: none;
-  color: black;
 } 
 
 .footer {
@@ -35,6 +34,9 @@ a:link
   &__text {
       text-align: center;
       font-size: 25px;
+  }
+  &__logo {
+    font-size: 25px;
   }
 }
 

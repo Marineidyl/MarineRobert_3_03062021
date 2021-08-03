@@ -10,7 +10,6 @@ body, html {
 a:link {
   text-decoration: none;
   list-style-type: none;
-  color: black;
 }
 
 .footer__title {
@@ -26,6 +25,9 @@ a:link {
 /*Pages Menu*/
 .header__text {
   text-align: center;
+  font-size: 25px;
+}
+.header__logo {
   font-size: 25px;
 }
 
