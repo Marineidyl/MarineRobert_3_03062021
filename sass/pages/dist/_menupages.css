@@ -42,19 +42,21 @@
   }
   .menu__icon {
     padding: 10px 0px 0px 55px;
+    font-size: 25px;
   }
   .menu__section {
     margin: 10px 10px;
   }
   .menu__presentation {
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    margin: 15px 0 0 0px;
   }
   .menu__price {
     margin: 0;
-    padding: 5px 0 0 0;
+    padding: 5px 0px 0px 15px;
   }
   .menu__presentationtext {
     margin: 0;
@@ -64,6 +66,10 @@
   .menu__presentationtitle {
     margin: 0;
     padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 374px) {

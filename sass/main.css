@@ -37,12 +37,18 @@ a:link {
   font-size: 13px;
 }
 
-.about__button {
+.menu__titlecategorie {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.about__button, .order__button {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   border-radius: 50px;
   width: 200px;
-  height: 41px;
+  height: 40px;
 }
 
 /*Footer*/
@@ -906,22 +912,24 @@ a:link {
   }
   .menu__icon {
     padding: 10px 0px 0px 55px;
+    font-size: 25px;
   }
   .menu__section {
     margin: 10px 10px;
   }
   .menu__presentation {
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin: 15px 0 0 0px;
   }
   .menu__price {
     margin: 0;
-    padding: 5px 0 0 0;
+    padding: 5px 0px 0px 15px;
   }
   .menu__presentationtext {
     margin: 0;
@@ -931,6 +939,10 @@ a:link {
   .menu__presentationtitle {
     margin: 0;
     padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
   }
 }
 

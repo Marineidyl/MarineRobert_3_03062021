@@ -1,8 +1,9 @@
-.about {
+.about , .order {
     &__button {
     background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
     border-radius: 50px;
     width: 200px;
-    height: 41px;
+    height: 40px;
     }
 }
+
