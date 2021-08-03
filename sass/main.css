@@ -16,13 +16,11 @@ a:link {
   font-family: "Shrikhand", "Roboto", sans-serif;
 }
 
-/*Page index*/
 .about__button, .order__button {
   color: white;
   font-weight: bold;
 }
 
-/*Pages Menu*/
 .header__text {
   text-align: center;
   font-size: 25px;
@@ -77,6 +75,11 @@ a:link {
 .footer__lists {
   padding: 0;
   list-style-type: none;
+  color: white;
+}
+
+.footer__link {
+  text-decoration: none;
   color: white;
 }
 
@@ -899,6 +902,7 @@ a:link {
   }
   .header__link {
     margin: 20px 10px;
+    color: gray;
   }
   .header__nav {
     display: -webkit-box;

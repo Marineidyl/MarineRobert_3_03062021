@@ -10,3 +10,7 @@
   list-style-type: none;
   color: white;
 }
+.footer__link {
+  text-decoration: none;
+  color: white;
+}
