@@ -1,7 +1,7 @@
 /*Mobiles*/
 @media only screen and (min-width: 320px) and (max-width: 359px) {
   body {
-    background-color: aquamarine;
+    background-color: white;
   }
 
   .header {
@@ -35,13 +35,15 @@
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
+    width: 200px;
   }
-  .menu_title {
+  .menu__title {
     display: flex;
     align-items: center;
+    width: 320px;
   }
   .menu__icon {
-    padding: 10px 0px 0px 55px;
+    padding: 5px 0px 0px 50px;
     font-size: 25px;
   }
   .menu__section {

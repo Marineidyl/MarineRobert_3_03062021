@@ -21,6 +21,7 @@ a:link
     font-family: $fonts_shrikhand_roboto;
   }
 }
+
 /*Page index*/ 
 .about , .order {
   &__button {
@@ -39,7 +40,7 @@ a:link
 
 .menu {
   &__name {
-    font-size: 25px;
+    font-size: 20px;
   }
   &__presentation {
     font-size: 13px;
