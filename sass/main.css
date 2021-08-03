@@ -18,7 +18,7 @@ a:link {
 }
 
 /*Page index*/
-.about__button {
+.about__button, .order__button {
   color: white;
   font-weight: bold;
 }
@@ -47,8 +47,20 @@ a:link {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   border-radius: 50px;
-  width: 200px;
   height: 40px;
+}
+
+.about .order, .order .order {
+  text-align: center;
+  padding: 15px 0px 40px 0;
+}
+
+.about .order__button, .order .order__button {
+  width: 135px;
+}
+
+.about .about__button, .order .about__button {
+  width: 190px;
 }
 
 /*Footer*/

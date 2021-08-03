@@ -2,8 +2,20 @@
     &__button {
     background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
     border-radius: 50px;
-    width: 200px;
     height: 40px;
+    }
+
+    .order {
+        text-align: center;
+        padding: 15px 0px 40px 0;
+        &__button {
+            width: 135px;  
+        }    
+    }
+    .about {
+        &__button {
+            width: 190px;
+        }
     }
 }
 

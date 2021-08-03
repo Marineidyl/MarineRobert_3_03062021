@@ -1,6 +1,11 @@
 .about__button, .order__button {
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   border-radius: 50px;
-  width: 200px;
   height: 40px;
+}
+.about .order__button, .order .order__button {
+  width: 135px;
+}
+.about .about__button, .order .about__button {
+  width: 190px;
 }

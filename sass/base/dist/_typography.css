@@ -18,7 +18,7 @@ a:link {
 }
 
 /*Page index*/
-.about__button {
+.about__button, .order__button {
   color: white;
   font-weight: bold;
 }
