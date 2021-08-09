@@ -973,7 +973,7 @@ a:link {
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
   body {
-    background-color: aquamarine;
+    background-color: white;
   }
   .header {
     margin: 0;
@@ -1059,7 +1059,7 @@ a:link {
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
   body {
-    background-color: blue;
+    background-color: white;
   }
   .header {
     margin: 0;
@@ -1145,7 +1145,7 @@ a:link {
 
 @media only screen and (min-width: 384px) and (max-width: 409px) {
   body {
-    background-color: #27274f;
+    background-color: white;
   }
   .header {
     margin: 0;
@@ -1230,7 +1230,7 @@ a:link {
 
 @media only screen and (min-width: 410px) and (max-width: 413px) {
   body {
-    background-color: cadetblue;
+    background-color: white;
   }
   .header {
     margin: 0;
@@ -1316,7 +1316,7 @@ a:link {
 
 @media only screen and (min-width: 414px) and (max-width: 599px) {
   body {
-    background-color: #a24a84;
+    background-color: white;
   }
   .header {
     margin: 0;
