@@ -57,16 +57,17 @@
         }
         &__price {
             margin: 0;
-            padding: 5px 0px 0px 15px;
+            width: 50px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 5px 0px 5px 15px;
-            width: 220px;
+            padding: 0px 0px 2px 15px;
+            width: 235px;
         }
         &__presentationtitle {
             margin: 0;
             padding: 15px 0px 5px 15px;
+            width: 340px;
         }
         &__titlecategorie {
             padding-left: 5px;
@@ -115,7 +116,6 @@
             display: flex;
             align-items: center;
             width: 320px;
-
         }
         &__icon {
             padding: 10px 0px 0px 90px;
@@ -133,16 +133,17 @@
         }
         &__price {
             margin: 0;
-            padding: 5px 0px 0px 50px;
+            width: 50px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 5px 0px 5px 15px;
-            width: 220px;
+            padding: 0px 0px 2px 15px;
+            width: 275px;
         }
         &__presentationtitle {
             margin: 0;
             padding: 15px 0px 5px 15px;
+            width: 340px;
         }
         &__titlecategorie {
             padding-left: 5px;
@@ -158,7 +159,7 @@
     .header {
         margin: 0;
         &__image {
-            width: 320px;
+            width: 375px;
             height: 235px;
             object-fit: cover;
         }
@@ -209,16 +210,17 @@
         }
         &__price {
             margin: 0;
-            padding: 5px 0px 0px 15px;
+            width: 50px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 5px 0px 5px 15px;
-            width: 220px;
+            padding: 0px 0px 2px 15px;
+            width: 290px;
         }
         &__presentationtitle {
             margin: 0;
             padding: 15px 0px 5px 15px;
+            width: 340px;
         }
         &__titlecategorie {
             padding-left: 5px;
@@ -234,8 +236,7 @@
     .header {
         margin: 0;
         &__image {
-            width: 320px;
-            height: 235px;
+            width: 384px;
             object-fit: cover;
         }
         &__text {
@@ -285,16 +286,17 @@
         }
         &__price {
             margin: 0;
-            padding: 5px 0px 0px 15px;
+            width: 50px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 5px 0px 5px 15px;
-            width: 220px;
+            padding: 0px 0px 2px 15px;
+            width: 299px;
         }
         &__presentationtitle {
             margin: 0;
             padding: 15px 0px 5px 15px;
+            width: 350px;
         }
         &__titlecategorie {
             padding-left: 5px;
@@ -303,14 +305,14 @@
     }
 }
 
-@media only screen and (min-width: 410px) and (max-width: 411px) {
+@media only screen and (min-width: 410px) and (max-width: 413px) {
     body {
         background-color: cadetblue;
     }
     .header {
         margin: 0;
         &__image {
-            width: 320px;
+            width: 412px;
             height: 235px;
             object-fit: cover;
         }
@@ -361,92 +363,17 @@
         }
         &__price {
             margin: 0;
-            padding: 5px 0px 0px 15px;
+            width: 50px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 5px 0px 5px 15px;
-            width: 220px;
+            padding: 0px 0px 2px 15px;
+            width: 325px;
         }
         &__presentationtitle {
             margin: 0;
             padding: 15px 0px 5px 15px;
-        }
-        &__titlecategorie {
-            padding-left: 5px;
-            margin: 0;
-        }
-    }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 413px) {
-    body {
-        background-color: rgb(102, 102, 177);
-    }
-    .header {
-        margin: 0;
-        &__image {
-            width: 320px;
-            height: 235px;
-            object-fit: cover;
-        }
-        &__text {
-            width: 100%;
-            margin: 10px 25px 0 0;
-        }
-        &__link {
-            margin: 20px 10px;
-            color: gray;
-        }
-        &__nav {
-            display: flex;
-        }
-    }
-    .menu {
-        background-color: #ececec;
-        border-top-left-radius: 40px;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-        margin-top: -3rem;
-        position: relative;
-        &__name {
-            margin: 0;
-            padding: 20px 0px 5px 15px;
-            width: 200px;
-        }
-        &__title {
-            display: flex;
-            align-items: center;
-            width: 320px;
-
-        }
-        &__icon {
-            padding: 5px 0px 0px 50px;
-            font-size: 25px;
-        }
-        &__section {
-            margin: 10px 10px;
-        }
-        &__presentation {
-            border-radius: 15px;
-            background-color: white;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 15px 0 0 0px;
-        }
-        &__price {
-            margin: 0;
-            padding: 5px 0px 0px 15px;
-        }
-        &__presentationtext {
-            margin: 0;
-            padding: 5px 0px 5px 15px;
-            width: 220px;
-        }
-        &__presentationtitle {
-            margin: 0;
-            padding: 15px 0px 5px 15px;
+            width: 375px;
         }
         &__titlecategorie {
             padding-left: 5px;
@@ -462,7 +389,7 @@
     .header {
         margin: 0;
         &__image {
-            width: 320px;
+            width: 414px;
             height: 235px;
             object-fit: cover;
         }
@@ -513,16 +440,17 @@
         }
         &__price {
             margin: 0;
-            padding: 5px 0px 0px 15px;
+            width: 50px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 5px 0px 5px 15px;
-            width: 220px;
+            padding: 0px 0px 2px 15px;
+            width: 329px;
         }
         &__presentationtitle {
             margin: 0;
             padding: 15px 0px 5px 15px;
+            width: 380px;
         }
         &__titlecategorie {
             padding-left: 5px;
