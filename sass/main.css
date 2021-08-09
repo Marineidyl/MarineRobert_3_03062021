@@ -935,7 +935,7 @@ a:link {
     width: 320px;
   }
   .menu__icon {
-    padding: 5px 0px 0px 50px;
+    padding: 15px 35px 0px 45px;
     font-size: 25px;
   }
   .menu__section {
@@ -1009,7 +1009,7 @@ a:link {
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 200px;
+    width: 240px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1018,10 +1018,10 @@ a:link {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 320px;
+    width: 360px;
   }
   .menu__icon {
-    padding: 10px 0px 0px 90px;
+    padding: 15px 35px 0px 45px;
     font-size: 25px;
   }
   .menu__section {
@@ -1104,10 +1104,10 @@ a:link {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 320px;
+    width: 375px;
   }
   .menu__icon {
-    padding: 5px 0px 0px 50px;
+    padding: 15px 35px 0px 100px;
     font-size: 25px;
   }
   .menu__section {
@@ -1180,7 +1180,7 @@ a:link {
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 200px;
+    width: 264px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1189,10 +1189,10 @@ a:link {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 320px;
+    width: 384px;
   }
   .menu__icon {
-    padding: 5px 0px 0px 50px;
+    padding: 15px 35px 0px 45px;
     font-size: 25px;
   }
   .menu__section {
@@ -1266,7 +1266,7 @@ a:link {
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 200px;
+    width: 292px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1275,10 +1275,10 @@ a:link {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 320px;
+    width: 412px;
   }
   .menu__icon {
-    padding: 5px 0px 0px 50px;
+    padding: 15px 35px 0px 45px;
     font-size: 25px;
   }
   .menu__section {
@@ -1352,7 +1352,7 @@ a:link {
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 200px;
+    width: 294px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1361,10 +1361,10 @@ a:link {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 320px;
+    width: 414px;
   }
   .menu__icon {
-    padding: 5px 0px 0px 50px;
+    padding: 15px 35px 0px 45px;
     font-size: 25px;
   }
   .menu__section {
