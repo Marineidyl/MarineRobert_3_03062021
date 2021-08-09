@@ -79,29 +79,455 @@
   body {
     background-color: aquamarine;
   }
+
+  .header {
+    margin: 0;
+  }
+  .header__image {
+    width: 360px;
+    height: 235px;
+    object-fit: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 10px 25px 0 0;
+  }
+  .header__link {
+    margin: 20px 10px;
+    color: gray;
+  }
+  .header__nav {
+    display: flex;
+  }
+
+  .menu {
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
+  }
+  .menu__name {
+    margin: 0;
+    padding: 20px 0px 5px 15px;
+    width: 200px;
+  }
+  .menu__title {
+    display: flex;
+    align-items: center;
+    width: 320px;
+  }
+  .menu__icon {
+    padding: 10px 0px 0px 90px;
+    font-size: 25px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0px 0px 50px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
+  }
 }
 @media only screen and (min-width: 375px) and (max-width: 383px) {
   body {
     background-color: blue;
+  }
+
+  .header {
+    margin: 0;
+  }
+  .header__image {
+    width: 320px;
+    height: 235px;
+    object-fit: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 10px 25px 0 0;
+  }
+  .header__link {
+    margin: 20px 10px;
+    color: gray;
+  }
+  .header__nav {
+    display: flex;
+  }
+
+  .menu {
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
+  }
+  .menu__name {
+    margin: 0;
+    padding: 20px 0px 5px 15px;
+    width: 200px;
+  }
+  .menu__title {
+    display: flex;
+    align-items: center;
+    width: 320px;
+  }
+  .menu__icon {
+    padding: 5px 0px 0px 50px;
+    font-size: 25px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0px 0px 15px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 384px) and (max-width: 409px) {
   body {
     background-color: #27274f;
   }
+
+  .header {
+    margin: 0;
+  }
+  .header__image {
+    width: 320px;
+    height: 235px;
+    object-fit: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 10px 25px 0 0;
+  }
+  .header__link {
+    margin: 20px 10px;
+    color: gray;
+  }
+  .header__nav {
+    display: flex;
+  }
+
+  .menu {
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
+  }
+  .menu__name {
+    margin: 0;
+    padding: 20px 0px 5px 15px;
+    width: 200px;
+  }
+  .menu__title {
+    display: flex;
+    align-items: center;
+    width: 320px;
+  }
+  .menu__icon {
+    padding: 5px 0px 0px 50px;
+    font-size: 25px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0px 0px 15px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
+  }
 }
 @media only screen and (min-width: 410px) and (max-width: 411px) {
   body {
     background-color: cadetblue;
+  }
+
+  .header {
+    margin: 0;
+  }
+  .header__image {
+    width: 320px;
+    height: 235px;
+    object-fit: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 10px 25px 0 0;
+  }
+  .header__link {
+    margin: 20px 10px;
+    color: gray;
+  }
+  .header__nav {
+    display: flex;
+  }
+
+  .menu {
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
+  }
+  .menu__name {
+    margin: 0;
+    padding: 20px 0px 5px 15px;
+    width: 200px;
+  }
+  .menu__title {
+    display: flex;
+    align-items: center;
+    width: 320px;
+  }
+  .menu__icon {
+    padding: 5px 0px 0px 50px;
+    font-size: 25px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0px 0px 15px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 412px) and (max-width: 413px) {
   body {
     background-color: #6666b1;
   }
+
+  .header {
+    margin: 0;
+  }
+  .header__image {
+    width: 320px;
+    height: 235px;
+    object-fit: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 10px 25px 0 0;
+  }
+  .header__link {
+    margin: 20px 10px;
+    color: gray;
+  }
+  .header__nav {
+    display: flex;
+  }
+
+  .menu {
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
+  }
+  .menu__name {
+    margin: 0;
+    padding: 20px 0px 5px 15px;
+    width: 200px;
+  }
+  .menu__title {
+    display: flex;
+    align-items: center;
+    width: 320px;
+  }
+  .menu__icon {
+    padding: 5px 0px 0px 50px;
+    font-size: 25px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0px 0px 15px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
+  }
 }
 @media only screen and (min-width: 414px) and (max-width: 599px) {
   body {
     background-color: #a24a84;
+  }
+
+  .header {
+    margin: 0;
+  }
+  .header__image {
+    width: 320px;
+    height: 235px;
+    object-fit: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 10px 25px 0 0;
+  }
+  .header__link {
+    margin: 20px 10px;
+    color: gray;
+  }
+  .header__nav {
+    display: flex;
+  }
+
+  .menu {
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
+  }
+  .menu__name {
+    margin: 0;
+    padding: 20px 0px 5px 15px;
+    width: 200px;
+  }
+  .menu__title {
+    display: flex;
+    align-items: center;
+    width: 320px;
+  }
+  .menu__icon {
+    padding: 5px 0px 0px 50px;
+    font-size: 25px;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__price {
+    margin: 0;
+    padding: 5px 0px 0px 15px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 5px 0px 5px 15px;
+    width: 220px;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 15px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
   }
 }

@@ -79,11 +79,151 @@
     body {
         background-color: aquamarine;
     }
+    .header {
+        margin: 0;
+        &__image {
+            width: 360px;
+            height: 235px;
+            object-fit: cover;
+        }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
+    }
+    .menu {
+        background-color: #ececec;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -3rem;
+        position: relative;
+        &__name {
+            margin: 0;
+            padding: 20px 0px 5px 15px;
+            width: 200px;
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            width: 320px;
+
+        }
+        &__icon {
+            padding: 10px 0px 0px 90px;
+            font-size: 25px;
+        }
+        &__section {
+            margin: 10px 10px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__price {
+            margin: 0;
+            padding: 5px 0px 0px 50px;
+        }
+        &__presentationtext {
+            margin: 0;
+            padding: 5px 0px 5px 15px;
+            width: 220px;
+        }
+        &__presentationtitle {
+            margin: 0;
+            padding: 15px 0px 5px 15px;
+        }
+        &__titlecategorie {
+            padding-left: 5px;
+            margin: 0;
+        }
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
     body {
         background-color: blue;
+    }
+    .header {
+        margin: 0;
+        &__image {
+            width: 320px;
+            height: 235px;
+            object-fit: cover;
+        }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
+    }
+    .menu {
+        background-color: #ececec;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -3rem;
+        position: relative;
+        &__name {
+            margin: 0;
+            padding: 20px 0px 5px 15px;
+            width: 200px;
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            width: 320px;
+
+        }
+        &__icon {
+            padding: 5px 0px 0px 50px;
+            font-size: 25px;
+        }
+        &__section {
+            margin: 10px 10px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__price {
+            margin: 0;
+            padding: 5px 0px 0px 15px;
+        }
+        &__presentationtext {
+            margin: 0;
+            padding: 5px 0px 5px 15px;
+            width: 220px;
+        }
+        &__presentationtitle {
+            margin: 0;
+            padding: 15px 0px 5px 15px;
+        }
+        &__titlecategorie {
+            padding-left: 5px;
+            margin: 0;
+        }
     }
 }
 
@@ -91,11 +231,151 @@
     body {
         background-color: rgb(39, 39, 79);
     }
+    .header {
+        margin: 0;
+        &__image {
+            width: 320px;
+            height: 235px;
+            object-fit: cover;
+        }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
+    }
+    .menu {
+        background-color: #ececec;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -3rem;
+        position: relative;
+        &__name {
+            margin: 0;
+            padding: 20px 0px 5px 15px;
+            width: 200px;
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            width: 320px;
+
+        }
+        &__icon {
+            padding: 5px 0px 0px 50px;
+            font-size: 25px;
+        }
+        &__section {
+            margin: 10px 10px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__price {
+            margin: 0;
+            padding: 5px 0px 0px 15px;
+        }
+        &__presentationtext {
+            margin: 0;
+            padding: 5px 0px 5px 15px;
+            width: 220px;
+        }
+        &__presentationtitle {
+            margin: 0;
+            padding: 15px 0px 5px 15px;
+        }
+        &__titlecategorie {
+            padding-left: 5px;
+            margin: 0;
+        }
+    }
 }
 
 @media only screen and (min-width: 410px) and (max-width: 411px) {
     body {
         background-color: cadetblue;
+    }
+    .header {
+        margin: 0;
+        &__image {
+            width: 320px;
+            height: 235px;
+            object-fit: cover;
+        }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
+    }
+    .menu {
+        background-color: #ececec;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -3rem;
+        position: relative;
+        &__name {
+            margin: 0;
+            padding: 20px 0px 5px 15px;
+            width: 200px;
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            width: 320px;
+
+        }
+        &__icon {
+            padding: 5px 0px 0px 50px;
+            font-size: 25px;
+        }
+        &__section {
+            margin: 10px 10px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__price {
+            margin: 0;
+            padding: 5px 0px 0px 15px;
+        }
+        &__presentationtext {
+            margin: 0;
+            padding: 5px 0px 5px 15px;
+            width: 220px;
+        }
+        &__presentationtitle {
+            margin: 0;
+            padding: 15px 0px 5px 15px;
+        }
+        &__titlecategorie {
+            padding-left: 5px;
+            margin: 0;
+        }
     }
 }
 
@@ -103,10 +383,150 @@
     body {
         background-color: rgb(102, 102, 177);
     }
+    .header {
+        margin: 0;
+        &__image {
+            width: 320px;
+            height: 235px;
+            object-fit: cover;
+        }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
+    }
+    .menu {
+        background-color: #ececec;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -3rem;
+        position: relative;
+        &__name {
+            margin: 0;
+            padding: 20px 0px 5px 15px;
+            width: 200px;
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            width: 320px;
+
+        }
+        &__icon {
+            padding: 5px 0px 0px 50px;
+            font-size: 25px;
+        }
+        &__section {
+            margin: 10px 10px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__price {
+            margin: 0;
+            padding: 5px 0px 0px 15px;
+        }
+        &__presentationtext {
+            margin: 0;
+            padding: 5px 0px 5px 15px;
+            width: 220px;
+        }
+        &__presentationtitle {
+            margin: 0;
+            padding: 15px 0px 5px 15px;
+        }
+        &__titlecategorie {
+            padding-left: 5px;
+            margin: 0;
+        }
+    }
 }
 
 @media only screen and (min-width: 414px) and (max-width: 599px) {
     body {
         background-color: rgb(162, 74, 132);
+    }
+    .header {
+        margin: 0;
+        &__image {
+            width: 320px;
+            height: 235px;
+            object-fit: cover;
+        }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
+    }
+    .menu {
+        background-color: #ececec;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -3rem;
+        position: relative;
+        &__name {
+            margin: 0;
+            padding: 20px 0px 5px 15px;
+            width: 200px;
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            width: 320px;
+
+        }
+        &__icon {
+            padding: 5px 0px 0px 50px;
+            font-size: 25px;
+        }
+        &__section {
+            margin: 10px 10px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__price {
+            margin: 0;
+            padding: 5px 0px 0px 15px;
+        }
+        &__presentationtext {
+            margin: 0;
+            padding: 5px 0px 5px 15px;
+            width: 220px;
+        }
+        &__presentationtitle {
+            margin: 0;
+            padding: 15px 0px 5px 15px;
+        }
+        &__titlecategorie {
+            padding-left: 5px;
+            margin: 0;
+        }
     }
 }
