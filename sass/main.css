@@ -1,3 +1,27 @@
+.restaurants__descriptionicon1, .restaurants__descriptionicon2, .restaurants__descriptionicon3, .restaurants__descriptionicon4 {
+  padding: 15px 0 0 55px;
+  position: absolute;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+  .heart {
+    font-size: 22px;
+    padding: 0;
+    color: orange;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+  .heart:hover {
+    color: green;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
 h1, h6 {
   font-family: "Shrikhand", "Roboto", sans-serif;
   text-decoration: none;
@@ -289,23 +313,23 @@ a:link {
   }
   .restaurants__descriptiontext {
     margin: 0;
+    width: 180px;
     padding: 0px 150px 5px 10px;
   }
   .restaurants__descriptiontitle {
     margin: 0;
+    width: 140px;
     padding: 0px 65px 5px 10px;
   }
-  .restaurants__descriptionicon1 {
-    padding: 15px 0 0 90px;
+  .restaurants__icons {
+    position: absolute;
+    float: right;
+    right: 20px;
   }
-  .restaurants__descriptionicon2 {
-    padding: 15px 0px 0 88px;
-  }
-  .restaurants__descriptionicon3 {
-    padding: 15px 0px 0 124px;
-  }
-  .restaurants__descriptionicon4 {
-    padding: 15px 0px 0px 90px;
+  .restaurants__heart {
+    font-size: 22px;
+    padding: 0;
+    position: absolute;
   }
   .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
     margin-bottom: 25px;

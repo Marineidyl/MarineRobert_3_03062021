@@ -1,0 +1,25 @@
+.restaurants {
+        &__descriptionicon1, &__descriptionicon2, &__descriptionicon3, &__descriptionicon4 {
+        padding: 15px 0 0 55px;
+        position: absolute;
+        }
+    }
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+.heart {
+    font-size: 22px;
+    padding: 0;
+    color: orange;
+    transform: scale(1);
+    transition: all 600ms;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+    &:hover {
+        
+      color: green;
+      transform: scale(1.2);
+    }
+  
+  }
+}
