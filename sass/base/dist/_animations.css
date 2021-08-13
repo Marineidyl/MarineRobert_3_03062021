@@ -1,0 +1,13 @@
+.restaurants__heartbackground--hover {
+  font-size: 22px;
+  padding: 0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.restaurants__heartbackground--hover:hover {
+  -webkit-text-fill-color: hotpink;
+  transform: scale(1.1);
+  background-color: transparent;
+}

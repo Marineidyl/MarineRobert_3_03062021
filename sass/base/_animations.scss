@@ -1,24 +1,19 @@
 .restaurants {
-        &__descriptionicon1, &__descriptionicon2, &__descriptionicon3, &__descriptionicon4 {
-        padding: 15px 0 0 55px;
-        position: absolute;
-        }
-    }
-
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-.heart {
+  &__heartbackground--hover {
     font-size: 22px;
     padding: 0;
-    color: orange;
-    transform: scale(1);
-    transition: all 600ms;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-
+    -webkit-text-fill-color:transparent;
+    cursor: pointer;
     &:hover {
-      color: green;
-      transform: scale(1.2);
+      -webkit-text-fill-color: hotpink;
+      transform: scale(1.1);
+      // background: radial-gradient(red, yellow, rgb(30, 144, 255));
+      background-color: transparent;
+      // -webkit-radial-gradient:(red, yellow, rgb(30, 144, 255)
     }
-  
   }
 }
+
+

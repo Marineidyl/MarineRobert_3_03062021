@@ -195,23 +195,18 @@
   }
   .restaurants__descriptiontext {
     margin: 0;
+    width: 180px;
     padding: 0px 150px 5px 10px;
   }
   .restaurants__descriptiontitle {
     margin: 0;
+    width: 140px;
     padding: 0px 65px 5px 10px;
   }
-  .restaurants__descriptionicon1 {
-    padding: 15px 0 0 90px;
-  }
-  .restaurants__descriptionicon2 {
-    padding: 15px 0px 0 88px;
-  }
-  .restaurants__descriptionicon3 {
-    padding: 15px 0px 0 124px;
-  }
-  .restaurants__descriptionicon4 {
-    padding: 15px 0px 0px 90px;
+  .restaurants__icons {
+    position: absolute;
+    float: right;
+    right: 20px;
   }
   .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
     margin-bottom: 25px;
@@ -767,5 +762,12 @@
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: white;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 600px) and (max-width: 5119px) {
+  .restaurants__image {
+    width: 350px;
+    height: 250px;
   }
 }

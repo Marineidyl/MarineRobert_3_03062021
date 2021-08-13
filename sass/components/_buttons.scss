@@ -1,24 +1,32 @@
-.about , .order {
-    &__button {
-    background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
-    border-radius: 50px;
-    height: 40px;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-    }
-}
-
 .order {
     text-align: center;
     padding: 15px 0px 40px 0;
+    width: 135px;
     &__button {
         width: 135px;  
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
+        background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+        border-radius: 50px;
+        height: 40px;
+        -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
     }    
 }
 .about {
     &__button {
         width: 190px;
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
+        background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+        border-radius: 50px;
+        height: 40px;
+        -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
     }
 }
 
-
-
+.restaurants {
+    &__descriptionicon1, &__descriptionicon2, &__descriptionicon3, &__descriptionicon4 {
+    padding: 15px 0 0 55px;
+    position: absolute;
+    }
+}
