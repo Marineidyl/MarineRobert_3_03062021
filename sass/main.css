@@ -9,11 +9,10 @@
 }
 
 .restaurants__heartbackground--hover:hover {
+  -webkit-text-fill-color: #ff2b64;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-color: transparent;
-  border-radius: 58px 38px 50px 18px;
 }
 
 /* Loading */
@@ -35,52 +34,39 @@
 .loading__item {
   font-size: 250px;
   -webkit-animation: loader 2s linear infinite;
-  animation: loader 2s linear  infinite;
+  -webkit-animation-name: loader;
+          animation-name: loader;
+  -webkit-animation: loader 2s linear  infinite;
+          animation: loader 2s linear  infinite;
 }
 
 @-webkit-keyframes loader {
   0% {
-    color: #9356dc;
-    text-shadow: 0 0 0.1rem #9356dc;
-    opacity: 100%;
+    color: blueviolet;
   }
   50% {
-    color: #ff79da;
-    text-shadow: 0 0 0.1rem #ff79da;
-    opacity: 100%;
+    color: cornflowerblue;
   }
   90% {
-    color: #5b4bf1;
-    text-shadow: 0 0 0.1rem #491772;
-    opacity: 100%;
+    color: orange;
   }
   100% {
-    color: #9356dc;
-    text-shadow: 0 0 0.5rem #9356dc;
-    opacity: 0%;
+    color: orchid;
   }
 }
 
 @keyframes loader {
   0% {
-    color: #9356dc;
-    text-shadow: 0 0 0.1rem #9356dc;
-    opacity: 100%;
+    color: blueviolet;
   }
   50% {
-    color: #ff79da;
-    text-shadow: 0 0 0.1rem #ff79da;
-    opacity: 100%;
+    color: cornflowerblue;
   }
   90% {
-    color: #5b4bf1;
-    text-shadow: 0 0 0.1rem #491772;
-    opacity: 100%;
+    color: orange;
   }
   100% {
-    color: #9356dc;
-    text-shadow: 0 0 0.5rem #9356dc;
-    opacity: 0%;
+    color: orchid;
   }
 }
 
