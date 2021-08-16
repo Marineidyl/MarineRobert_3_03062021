@@ -16,4 +16,55 @@
   }
 }
 
+.loading {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  &__elements {
+    display: flex;
+  }
+  &__item {
+    font-size: 250px;
+    -webkit-animation: flash 2s linear infinite;
+    animation: flash 2s linear infinite;
+  }
+
+  @keyframes flash {
+    0% {
+      color: #9356dc;
+      text-shadow: 0 0 0.1rem #9356dc;
+      opacity: 100%;
+    }
+    50% {
+      color: #ff79da;
+      text-shadow: 0 0 0.1rem #ff79da;
+      opacity: 100%;
+    }
+    90% {
+      color: rgb(91, 75, 241);
+      text-shadow: 0 0 0.1rem #491772;
+      opacity: 100%;
+    }
+    100% {
+      color: #9356dc;
+      text-shadow: 0 0 0.5rem #9356dc;
+      opacity: 0%;
+    }
+  }
+  
+    &__loader__item--1 {
+      -webkit-animation-delay: 0.1s;
+      animation-delay: 0.1s;
+    }
+    &__loader__item--2 {
+      -webkit-animation-delay: 0.2s;
+      animation-delay: 0.2s;
+    }
+    &__loader__item--3 {
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s;
+    }
+    
+}
 
