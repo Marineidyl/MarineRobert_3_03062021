@@ -1,3 +1,4 @@
+/* Button Heart */
 .restaurants__heartbackground--hover {
   font-size: 22px;
   padding: 0;
@@ -8,12 +9,14 @@
 }
 
 .restaurants__heartbackground--hover:hover {
-  -webkit-text-fill-color: hotpink;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-color: transparent;
+  border-radius: 58px 38px 50px 18px;
 }
 
+/* Loading */
 .loading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,11 +34,11 @@
 
 .loading__item {
   font-size: 250px;
-  -webkit-animation: flash 2s linear infinite;
-  animation: flash 2s linear infinite;
+  -webkit-animation: loader 2s linear infinite;
+  animation: loader 2s linear  infinite;
 }
 
-@-webkit-keyframes flash {
+@-webkit-keyframes loader {
   0% {
     color: #9356dc;
     text-shadow: 0 0 0.1rem #9356dc;
@@ -58,7 +61,7 @@
   }
 }
 
-@keyframes flash {
+@keyframes loader {
   0% {
     color: #9356dc;
     text-shadow: 0 0 0.1rem #9356dc;
