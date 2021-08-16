@@ -1,4 +1,8 @@
 /* Button Heart */
+.restaurants {
+  /*Transition*/
+}
+
 .restaurants__heartbackground--hover {
   font-size: 22px;
   padding: 0;
@@ -17,12 +21,19 @@
 
 /* Loading */
 .loading {
-  display: -webkit-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
   -ms-flex-pack: center;
       justify-content: center;
+  display: -webkit-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
 }
 
 .loading__elements {
@@ -36,8 +47,7 @@
   -webkit-animation: loader 2s linear infinite;
   -webkit-animation-name: loader;
           animation-name: loader;
-  -webkit-animation: loader 2s linear  infinite;
-          animation: loader 2s linear  infinite;
+  animation: loader 2s linear infinite;
 }
 
 @-webkit-keyframes loader {
@@ -83,6 +93,10 @@
 .loading__loader__item--3 {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+}
+
+.loading:after {
+  visibility: hidden;
 }
 
 h1, h6 {
