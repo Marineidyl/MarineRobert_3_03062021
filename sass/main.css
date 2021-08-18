@@ -122,6 +122,10 @@ a:link {
 }
 
 /* Base/Margin/Padding */
+body {
+  margin: 0;
+}
+
 /* Header */
 .about {
   margin: 0;
