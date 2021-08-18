@@ -13,92 +13,18 @@
 }
 
 .restaurants__heartbackground--hover:hover {
-  -webkit-text-fill-color: #ff2b64;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: rgba(238, 130, 238, 0);
+  width: 25px;
+  text-align: center;
 }
 
 /* Loading */
-.loading {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  display: -webkit-box;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-}
-
-.loading__elements {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.loading__item {
-  font-size: 250px;
-  -webkit-animation: loader 2s linear infinite;
-  -webkit-animation-name: loader;
-          animation-name: loader;
-  animation: loader 2s linear infinite;
-}
-
-@-webkit-keyframes loader {
-  0% {
-    color: blueviolet;
-  }
-  50% {
-    color: cornflowerblue;
-  }
-  90% {
-    color: orange;
-  }
-  100% {
-    color: orchid;
-  }
-}
-
-@keyframes loader {
-  0% {
-    color: blueviolet;
-  }
-  50% {
-    color: cornflowerblue;
-  }
-  90% {
-    color: orange;
-  }
-  100% {
-    color: orchid;
-  }
-}
-
-.loading__loader__item--1 {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-
-.loading__loader__item--2 {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.loading__loader__item--3 {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
-.loading:after {
-  visibility: hidden;
-}
-
 h1, h6 {
   font-family: "Shrikhand", "Roboto", sans-serif;
   text-decoration: none;
@@ -195,6 +121,21 @@ a:link {
   color: white;
 }
 
+/* Base/Margin/Padding */
+/* Header */
+.about {
+  margin: 0;
+}
+
+.about__title {
+  margin: 0;
+}
+
+.about__elements {
+  background-color: #F2F2F2;
+  padding: 0 0 35px 0;
+}
+
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
   body {
@@ -220,9 +161,6 @@ a:link {
     border-left: none;
     border-right: none;
     width: 90px;
-  }
-  .about {
-    margin: 10px 10px;
   }
   .about__elements {
     text-align: center;
@@ -335,9 +273,6 @@ a:link {
     border-right: none;
     width: 90px;
   }
-  .about {
-    margin: 10px 10px;
-  }
   .about__elements {
     text-align: center;
   }
@@ -408,9 +343,9 @@ a:link {
     padding: 0px 65px 5px 10px;
   }
   .restaurants__icons {
-    position: absolute;
     float: right;
-    right: 20px;
+    position: initial;
+    padding-left: 92px;
   }
   .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
     margin-bottom: 25px;
@@ -443,9 +378,6 @@ a:link {
     border-left: none;
     border-right: none;
     width: 90px;
-  }
-  .about {
-    margin: 10px 10px;
   }
   .about__elements {
     text-align: center;
@@ -558,9 +490,6 @@ a:link {
     border-right: none;
     width: 90px;
   }
-  .about {
-    margin: 10px 10px;
-  }
   .about__elements {
     text-align: center;
   }
@@ -671,9 +600,6 @@ a:link {
     border-left: none;
     border-right: none;
     width: 90px;
-  }
-  .about {
-    margin: 10px 10px;
   }
   .about__elements {
     text-align: center;
@@ -786,9 +712,6 @@ a:link {
     border-right: none;
     width: 90px;
   }
-  .about {
-    margin: 10px 10px;
-  }
   .about__elements {
     text-align: center;
   }
@@ -900,9 +823,6 @@ a:link {
     border-right: none;
     width: 90px;
   }
-  .about {
-    margin: 10px 10px;
-  }
   .about__elements {
     text-align: center;
   }
@@ -995,6 +915,17 @@ a:link {
     width: 350px;
     height: 250px;
   }
+}
+
+/* Base/margin/padding */
+.restaurants__icons {
+  width: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*Mobiles*/

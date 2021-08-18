@@ -1,3 +1,18 @@
+/* Base/Margin/Padding */
+
+/* Header */ 
+.about {
+    margin: 0;
+    &__title {
+        margin: 0;
+    }
+    &__elements {
+        background-color: #F2F2F2;
+        padding: 0 0 35px 0;
+    }
+}
+
+
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
     body {
@@ -28,8 +43,6 @@
     }
 
     .about {
-        margin: 10px 10px;
-
         &__elements {
             text-align: center;
         }
@@ -140,8 +153,6 @@
     }
 
     .about {
-        margin: 10px 10px;
-
         &__elements {
             text-align: center;
         }
@@ -207,9 +218,9 @@
             padding: 0px 65px 5px 10px;
         }
         &__icons {
-            position: absolute;
             float: right;
-            right: 20px;
+            position: initial;
+            padding-left: 92px;
         }
         &__section1, &__section2, &__section3, &__section4 {
             margin-bottom: 25px;
@@ -271,8 +282,6 @@
     }
 
     .about {
-        margin: 10px 10px;
-
         &__elements {
             text-align: center;
         }
@@ -385,8 +394,6 @@
     }
 
     .about {
-        margin: 10px 10px;
-
         &__elements {
             text-align: center;
         }
@@ -500,8 +507,6 @@
     }
 
     .about {
-        margin: 10px 10px;
-
         &__elements {
             text-align: center;
         }
@@ -615,8 +620,6 @@
     }
 
     .about {
-        margin: 10px 10px;
-
         &__elements {
             text-align: center;
         }
@@ -730,8 +733,6 @@
     }
 
     .about {
-        margin: 10px 10px;
-
         &__elements {
             text-align: center;
         }
@@ -818,6 +819,7 @@
 
 /* Desktop */
 @media only screen and (min-width: 600px) and (max-width: 5119px) {
+    
     .restaurants {
         &__image {
             width: 350px;
