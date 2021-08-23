@@ -36,23 +36,23 @@
   -webkit-box-pack: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.9);
-  position: fixed;
-  
+  position: fixed;  
+  animation: loader 3s linear infinite; 
   &__elements {
     display: flex;
   }
   &__item {
     font-size: 250px;
-    animation: loader 3s linear infinite; 
-    animation-fill-mode: both;
+    
   }
 
   @keyframes loader {
-    0% { color: #9356DC;}
+    0% { color: #9356DC; opacity:1; }
     50% { color: #FF79DA; }
-    100% {  color: #99E2D0;}
+    100% {  color: #99E2D0; opacity:0;}
     }
   }
+
   
 .menu {
   &__presentation {
