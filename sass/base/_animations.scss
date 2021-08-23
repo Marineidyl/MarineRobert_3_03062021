@@ -37,13 +37,12 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;  
-  animation: loader 3s linear infinite; 
+  animation: loader 3s linear forwards; 
   &__elements {
     display: flex;
   }
   &__item {
     font-size: 250px;
-    
   }
 
   @keyframes loader {
@@ -53,7 +52,6 @@
     }
   }
 
-  
 .menu {
   &__presentation {
     transition: 3s;
