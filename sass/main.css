@@ -42,8 +42,6 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
 }
 
 .loading__elements {
@@ -54,11 +52,10 @@
 
 .loading__item {
   font-size: 250px;
-  -webkit-animation: loader 3s linear infinite;
   -webkit-animation-name: loader;
           animation-name: loader;
+  -webkit-animation: loader 3s linear infinite;
   animation: loader 3s linear infinite;
-  overflow: hidden;
 }
 
 @-webkit-keyframes loader {
