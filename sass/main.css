@@ -40,8 +40,9 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
-  -webkit-animation: loader 6s linear forwards;
-          animation: loader 6s linear forwards;
+  -webkit-animation: loader 3s linear forwards;
+          animation: loader 3s linear forwards;
+  background-clip: text;
 }
 
 .loading__elements {

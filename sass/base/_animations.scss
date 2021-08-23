@@ -9,15 +9,13 @@
     -webkit-text-fill-color:transparent;
     cursor: pointer;
     &:hover {
-      
-       background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
+      background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
       background-color: transparent;
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-stroke-color: rgba(238, 130, 238, 0);
       width: 25px;
       text-align: center;
-      
       // color: transparent;
     }
   }
@@ -37,7 +35,8 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;  
-  animation: loader 6s linear forwards; 
+  animation: loader 3s linear forwards; 
+  background-clip: text;
   &__elements {
     display: flex;
   }
