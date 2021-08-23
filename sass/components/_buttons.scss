@@ -10,7 +10,10 @@
         height: 40px;
         -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
         box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-    }    
+    } 
+    &__button:hover {
+        cursor: pointer;
+    }
 }
 .about {
     &__button {
@@ -21,6 +24,9 @@
         height: 40px;
         -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
         box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+    &__button:hover {
+        cursor: pointer;
     }
 }
 

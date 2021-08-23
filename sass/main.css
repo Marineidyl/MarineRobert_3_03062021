@@ -13,8 +13,6 @@
 }
 
 .restaurants__heartbackground--hover:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-color: transparent;
   background-clip: text;
@@ -26,10 +24,10 @@
 
 /* Loading */
 .menu__presentation {
-  -webkit-transition: .5s;
-  transition: .5s;
-  -webkit-animation: slideUp 2s;
-          animation: slideUp 2s;
+  -webkit-transition: 3s;
+  transition: 3s;
+  -webkit-animation: slideUp 3s;
+          animation: slideUp 3s;
 }
 
 @-webkit-keyframes slideUp {
@@ -56,6 +54,10 @@
             transform: translateY(-10px);
     opacity: 1;
   }
+}
+
+.menu__checkbox-animation:hover {
+  cursor: pointer;
 }
 
 h1, h6 {
@@ -120,6 +122,10 @@ a:link {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
+.order__button:hover {
+  cursor: pointer;
+}
+
 .about__button {
   width: 190px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
@@ -128,6 +134,10 @@ a:link {
   height: 40px;
   -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.about__button:hover {
+  cursor: pointer;
 }
 
 .restaurants__descriptionicon1, .restaurants__descriptionicon2, .restaurants__descriptionicon3, .restaurants__descriptionicon4 {
