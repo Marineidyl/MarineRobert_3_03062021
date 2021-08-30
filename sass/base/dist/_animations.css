@@ -76,9 +76,6 @@
     opacity: 1;
   }
 }
-.menu__checkbox-animation:hover {
-  cursor: pointer;
-}
 
 /*Checkbox*/
 @media only screen and (min-width: 360px) and (max-width: 374px) {
@@ -99,5 +96,27 @@
     border-radius: 0 20px 20px 0;
     position: absolute;
     padding: 20px 25px 20px 25px;
+    animation: checkbox 3s;
+  }
+  .menu__checkbox--meal__icon {
+    background-color: gold;
+  }
+  .menu__checkbox--meal__icon:hover {
+    background-color: green;
+  }
+
+  @keyframes checkbox {
+    0% {
+      transform: rotate(120deg);
+      opacity: 1;
+    }
+    50% {
+      transform: rotate(240deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
   }
 }
