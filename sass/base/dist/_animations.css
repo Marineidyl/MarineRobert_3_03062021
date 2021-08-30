@@ -79,3 +79,25 @@
 .menu__checkbox-animation:hover {
   cursor: pointer;
 }
+
+/*Checkbox*/
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+  .menu__checkbox--meal {
+    position: absolute;
+    right: 8px;
+    padding: 20px 25px 20px 25px;
+    text-align: center;
+    background-color: #0b60a5;
+    opacity: 0%;
+  }
+  .menu__checkbox--meal:hover {
+    opacity: 100%;
+    cursor: pointer;
+    background-color: fuchsia;
+    text-align: center;
+    right: 8px;
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    padding: 20px 25px 20px 25px;
+  }
+}
