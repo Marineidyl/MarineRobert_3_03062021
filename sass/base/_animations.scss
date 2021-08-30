@@ -57,42 +57,62 @@
   &__slide--one {
     transition: 3.5s;
     animation: slideUp 3.5s;
+    -webkit-animation: slideUp 3.5s;
+    -moz-animation: slideUp 3.5s;
   }
  &__slide--two {
     transition: 3s;
     animation: slideUp 3s;
+    -webkit-animation: slideUp 3s;
+    -moz-animation: slideUp 3s;
   }
   &__slide--three {
     transition: 2.8s;
     animation: slideUp 2.8s;
+    -webkit-animation: slideUp 2.8s;
+    -moz-animation: slideUp 2.8s;
   }
   &__slide--four {
     transition:2.5s;
     animation: slideUp 2.5s;
+    -webkit-animation: slideUp 2.5s;
+    -moz-animation: slideUp 2.5s;
   }
   &__slide--five {
     transition:2s;
     animation: slideUp 2s;
+    -webkit-animation: slideUp 2s;
+    -moz-animation: slideUp 2s;
   }
   &__slide--six  {
     transition:  1.8s;
     animation: slideUp 1.8s;
+    -webkit-animation: slideUp 1.8s;
+    -moz-animation: slideUp 1.8s;
   }
   &__slide--seven {
     transition: 1.5s;
     animation: slideUp 1.5s;
+    -webkit-animation: slideUp 1.5s;
+    -moz-animation: slideUp 1.5s;
   }
   &__slide--eight {
     transition: 1s;
     animation: slideUp 1s;
+    -webkit-animation: slideUp 1s;
+    -moz-animation: slideUp 1s;
   }
   &__slide--nine {
     transition:0.8s;
     animation: slideUp 0.8s;
+    -webkit-animation: slideUp 0.8s;
+    -moz-animation: slideUp 0.8s;
   }
   &__slide--ten {
     transition: 0.5s;
     animation: slideUp 0.5s;
+    -webkit-animation: slideUp 0.5s;
+    -moz-animation: slideUp 0.8s;
   }
 
   @keyframes slideUp {
@@ -122,6 +142,7 @@
       background-color: rgb(11, 96, 165);
       opacity: 0%;
         &:hover {
+          transition: margin-left 2s;
           opacity: 100%;
           cursor: pointer;
           background-color: fuchsia;
@@ -130,28 +151,53 @@
           border-radius: 0 20px 20px 0;
           position: absolute;
           padding: 20px 25px 20px 25px;
-          animation: checkbox 3s;
         }
-        &__icon {
-          background-color: gold;
+        &__checkbox--mealIcon {
+
           &:hover {
-            background-color: green;
+            animation: checkbox 3s !important;
+            -webkit-animation: checkbox 3s !important;
+            -moz-animation: checkbox 3s !important;
+            padding: 20px 25px 20px 25px;
+                      
+          &__presentationtext {
+            &:hover {
+            width: 215px;
+            width: 184px;
+            overflow: hidden;
+            height: 17px;
+            }
+          }
           }
         }
       }
     }
 
+
+    // .menu__presentationtext {
+    //   width: 215px;
+    //   width: 184px;
+    //   overflow: hidden;
+    //   height: 17px;
+    // }
+
     @keyframes checkbox {
       0% {
         transform: rotate(120deg);
+        -webkit-transform: rotate(120deg);
+        -moz-transform: rotate(120deg);
         opacity: 1;
       }
       50% {
         transform: rotate(240deg);
+        -webkit-transform: rotate(240deg);
+        -moz-transform: rotate(240deg);
         opacity: 1;
       }
       100% {
         transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
         opacity: 1;
       }
     }

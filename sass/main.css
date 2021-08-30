@@ -27,71 +27,81 @@
 .menu__slide--one {
   -webkit-transition: 3.5s;
   transition: 3.5s;
+  animation: slideUp 3.5s;
   -webkit-animation: slideUp 3.5s;
-          animation: slideUp 3.5s;
+  -moz-animation: slideUp 3.5s;
 }
 
 .menu__slide--two {
   -webkit-transition: 3s;
   transition: 3s;
+  animation: slideUp 3s;
   -webkit-animation: slideUp 3s;
-          animation: slideUp 3s;
+  -moz-animation: slideUp 3s;
 }
 
 .menu__slide--three {
   -webkit-transition: 2.8s;
   transition: 2.8s;
+  animation: slideUp 2.8s;
   -webkit-animation: slideUp 2.8s;
-          animation: slideUp 2.8s;
+  -moz-animation: slideUp 2.8s;
 }
 
 .menu__slide--four {
   -webkit-transition: 2.5s;
   transition: 2.5s;
+  animation: slideUp 2.5s;
   -webkit-animation: slideUp 2.5s;
-          animation: slideUp 2.5s;
+  -moz-animation: slideUp 2.5s;
 }
 
 .menu__slide--five {
   -webkit-transition: 2s;
   transition: 2s;
+  animation: slideUp 2s;
   -webkit-animation: slideUp 2s;
-          animation: slideUp 2s;
+  -moz-animation: slideUp 2s;
 }
 
 .menu__slide--six {
   -webkit-transition: 1.8s;
   transition: 1.8s;
+  animation: slideUp 1.8s;
   -webkit-animation: slideUp 1.8s;
-          animation: slideUp 1.8s;
+  -moz-animation: slideUp 1.8s;
 }
 
 .menu__slide--seven {
   -webkit-transition: 1.5s;
   transition: 1.5s;
+  animation: slideUp 1.5s;
   -webkit-animation: slideUp 1.5s;
-          animation: slideUp 1.5s;
+  -moz-animation: slideUp 1.5s;
 }
 
 .menu__slide--eight {
   -webkit-transition: 1s;
   transition: 1s;
+  animation: slideUp 1s;
   -webkit-animation: slideUp 1s;
-          animation: slideUp 1s;
+  -moz-animation: slideUp 1s;
 }
 
 .menu__slide--nine {
   -webkit-transition: 0.8s;
   transition: 0.8s;
+  animation: slideUp 0.8s;
   -webkit-animation: slideUp 0.8s;
-          animation: slideUp 0.8s;
+  -moz-animation: slideUp 0.8s;
 }
 
 .menu__slide--ten {
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  animation: slideUp 0.5s;
   -webkit-animation: slideUp 0.5s;
-          animation: slideUp 0.5s;
+  -moz-animation: slideUp 0.8s;
 }
 
 @-webkit-keyframes slideUp {
@@ -141,6 +151,8 @@
     opacity: 0%;
   }
   .menu__checkbox--meal:hover {
+    -webkit-transition: margin-left 2s;
+    transition: margin-left 2s;
     opacity: 100%;
     cursor: pointer;
     background-color: fuchsia;
@@ -149,46 +161,56 @@
     border-radius: 0 20px 20px 0;
     position: absolute;
     padding: 20px 25px 20px 25px;
-    -webkit-animation: checkbox 3s;
-            animation: checkbox 3s;
   }
-  .menu__checkbox--meal__icon {
-    background-color: gold;
+  .menu__checkbox--meal__checkbox--mealIcon:hover {
+    animation: checkbox 3s !important;
+    -webkit-animation: checkbox 3s !important;
+    -moz-animation: checkbox 3s !important;
+    padding: 20px 25px 20px 25px;
   }
-  .menu__checkbox--meal__icon:hover {
-    background-color: green;
+  .menu__checkbox--meal__checkbox--mealIcon:hover__presentationtext:hover {
+    width: 215px;
+    width: 184px;
+    overflow: hidden;
+    height: 17px;
   }
   @-webkit-keyframes checkbox {
     0% {
+      transform: rotate(120deg);
       -webkit-transform: rotate(120deg);
-              transform: rotate(120deg);
+      -moz-transform: rotate(120deg);
       opacity: 1;
     }
     50% {
+      transform: rotate(240deg);
       -webkit-transform: rotate(240deg);
-              transform: rotate(240deg);
+      -moz-transform: rotate(240deg);
       opacity: 1;
     }
     100% {
+      transform: rotate(360deg);
       -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
       opacity: 1;
     }
   }
   @keyframes checkbox {
     0% {
+      transform: rotate(120deg);
       -webkit-transform: rotate(120deg);
-              transform: rotate(120deg);
+      -moz-transform: rotate(120deg);
       opacity: 1;
     }
     50% {
+      transform: rotate(240deg);
       -webkit-transform: rotate(240deg);
-              transform: rotate(240deg);
+      -moz-transform: rotate(240deg);
       opacity: 1;
     }
     100% {
+      transform: rotate(360deg);
       -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
       opacity: 1;
     }
   }
