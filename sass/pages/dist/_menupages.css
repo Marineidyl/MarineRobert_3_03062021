@@ -130,6 +130,8 @@
   .menu__icon {
     padding: 15px 35px 0px 45px;
     font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
   .menu__section {
     margin: 10px 10px;
