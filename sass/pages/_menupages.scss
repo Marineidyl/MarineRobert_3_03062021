@@ -143,6 +143,12 @@
             flex-wrap: wrap;
             margin: 15px 0 0 0px;
         }
+        &__check {
+            width: 340px;
+            &:hover {
+                width: 318px;
+            }
+        }
         &__price {
             margin: 0;
             width: 50px;

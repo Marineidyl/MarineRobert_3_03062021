@@ -147,7 +147,6 @@
     right: 8px;
     padding: 20px 25px 20px 25px;
     text-align: center;
-    background-color: #0b60a5;
     opacity: 0%;
   }
   .menu__checkbox--meal:hover {
@@ -155,24 +154,27 @@
     transition: margin-left 2s;
     opacity: 100%;
     cursor: pointer;
-    background-color: fuchsia;
+    background-color: #99E2D0;
     text-align: center;
     right: 8px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 20px;
     position: absolute;
-    padding: 20px 25px 20px 25px;
+    padding: 20px;
+    animation: checkbox 3s;
+    -webkit-animation: checkbox 3s;
+    -moz-animation: checkbox 3s;
   }
-  .menu__checkbox--meal__checkbox--mealIcon:hover {
-    animation: checkbox 3s !important;
-    -webkit-animation: checkbox 3s !important;
-    -moz-animation: checkbox 3s !important;
-    padding: 20px 25px 20px 25px;
+  .menu__presentation {
+    height: 55px;
   }
-  .menu__checkbox--meal__checkbox--mealIcon:hover__presentationtext:hover {
-    width: 215px;
-    width: 184px;
+  .menu__presentationtext:hover {
+    width: 235px;
     overflow: hidden;
     height: 17px;
+  }
+  .menu__presentationtext__check {
+    overflow: hidden;
+    height: 55px;
   }
   @-webkit-keyframes checkbox {
     0% {
@@ -1285,6 +1287,12 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 15px 0 0 0px;
+  }
+  .menu__check {
+    width: 340px;
+  }
+  .menu__check:hover {
+    width: 318px;
   }
   .menu__price {
     margin: 0;

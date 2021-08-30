@@ -139,47 +139,38 @@
       right: 8px;
       padding: 20px 25px 20px 25px;
       text-align: center;
-      background-color: rgb(11, 96, 165);
       opacity: 0%;
         &:hover {
           transition: margin-left 2s;
           opacity: 100%;
           cursor: pointer;
-          background-color: fuchsia;
+          background-color: #99E2D0;
           text-align: center;
           right: 8px;
-          border-radius: 0 20px 20px 0;
+          border-radius: 20px;
           position: absolute;
-          padding: 20px 25px 20px 25px;
-        }
-        &__checkbox--mealIcon {
-
-          &:hover {
-            animation: checkbox 3s !important;
-            -webkit-animation: checkbox 3s !important;
-            -moz-animation: checkbox 3s !important;
-            padding: 20px 25px 20px 25px;
-                      
-          &__presentationtext {
-            &:hover {
-            width: 215px;
-            width: 184px;
-            overflow: hidden;
-            height: 17px;
-            }
-          }
-          }
-        }
+          padding: 20px;
+          animation: checkbox 3s;
+          -webkit-animation: checkbox 3s;
+          -moz-animation: checkbox 3s;
       }
+    } 
+    &__presentation {
+      height: 55px;
     }
+    &__presentationtext {
+      &:hover {
+          width: 235px;
+          overflow: hidden;
+          height: 17px;
+      } 
+      &__check {
+        overflow: hidden;
+        height: 55px;
+      }
 
-
-    // .menu__presentationtext {
-    //   width: 215px;
-    //   width: 184px;
-    //   overflow: hidden;
-    //   height: 17px;
-    // }
+    } 
+  }
 
     @keyframes checkbox {
       0% {
@@ -202,3 +193,12 @@
       }
     }
 }
+
+
+
+    // .menu__presentationtext {
+    //   width: 215px;
+    //   width: 184px;
+    //   overflow: hidden;
+    //   height: 17px;
+    // }

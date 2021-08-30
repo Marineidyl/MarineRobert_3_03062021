@@ -143,6 +143,12 @@
     flex-wrap: wrap;
     margin: 15px 0 0 0px;
   }
+  .menu__check {
+    width: 340px;
+  }
+  .menu__check:hover {
+    width: 318px;
+  }
   .menu__price {
     margin: 0;
     width: 50px;
