@@ -2,8 +2,15 @@
 body {
     margin: 0;
 }
-
+main {
+    position: relative;
+    z-index: 3;
+}
 /* Header */ 
+header {
+    position: relative;
+    z-index: 2;
+}
 .about {
     margin: 0;
     &__title {

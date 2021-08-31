@@ -149,10 +149,6 @@
   .menu__check:hover {
     width: 318px;
   }
-  .menu__price {
-    margin: 0;
-    width: 50px;
-  }
   .menu__presentationtext {
     margin: 0;
     padding: 0px 0px 2px 15px;
