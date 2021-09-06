@@ -14,3 +14,14 @@
   text-decoration: none;
   color: white;
 }
+.footer__link:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+  .footer {
+    position: absolute;
+    z-index: 5;
+    width: 340px;
+  }
+}
