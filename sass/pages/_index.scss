@@ -4,12 +4,10 @@ body {
 }
 main {
     position: relative;
-    z-index: 3;
 }
 /* Header */ 
 header {
     position: relative;
-    z-index: 2;
 }
 .about {
     margin: 0;
@@ -21,7 +19,6 @@ header {
         padding: 0 0 35px 0;
     }
 }
-
 
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
@@ -147,7 +144,6 @@ header {
             text-align: center;
         }
     }
-
     .localisation {
         text-align: center;
         background-color: #F2F2F2;
@@ -161,13 +157,11 @@ header {
             width: 90px;
         }
     }
-
     .about {
         &__elements {
             text-align: center;
         }
     }
-
     .functioning {
         margin: 10px 10px;
 
@@ -197,7 +191,18 @@ header {
     .restaurants {
         background-color: #F2F2F2;
         padding: 10px 10px;
-
+        &__badge {
+            background-color: #99e2d0;
+            color: #1b6150;
+            padding: 5px 10px;
+            border-radius: 3px;
+            position: absolute;
+            left: 260px;
+            margin-top: 10px;
+        }
+        &__new {
+            position: relative;
+        }
         &__link {
             list-style: none;
             text-decoration: none;
@@ -239,28 +244,6 @@ header {
         }
 
     }
-//     .btn {
-//         font-size: 22px;
-//         padding: 0;
-//         color: #2c73b6;
-//         cursor: pointer;
-//     }
-    
-//     .btn::before {
-//         content: "";
-//         position: absolute;
-//         left: 0;
-//         right: 0;
-//         top: 0;
-//         margin: auto;
-//         background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-//         transition: all 500ms ease;
-//         z-index: -1;
-//     }
-//     .btn--1:hover::before {
-//     width: 100%;
-//     height: 100%;
-//     }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {

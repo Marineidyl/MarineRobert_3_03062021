@@ -116,6 +116,7 @@
     border-bottom-left-radius: 0;
     margin-top: -3rem;
     position: relative;
+    /*Check*/
   }
   .menu__name {
     margin: 0;
@@ -136,32 +137,61 @@
   .menu__section {
     margin: 10px 10px;
   }
-  .menu__presentation {
-    border-radius: 15px;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 15px 0 0 0px;
-  }
   .menu__check {
     width: 340px;
   }
-  .menu__check:hover {
-    width: 318px;
-  }
   .menu__presentationtext {
     margin: 0;
-    padding: 0px 0px 2px 15px;
-    width: 275px;
+    padding: 0;
   }
   .menu__presentationtitle {
     margin: 0;
-    padding: 15px 0px 5px 15px;
-    width: 340px;
+    padding: 15px 0px 5px 0px;
   }
   .menu__titlecategorie {
     padding-left: 5px;
     margin: 0;
+  }
+  .menu__price {
+    margin: 35px 25px 0px 25px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__item {
+    background-color: #fff;
+    padding: 0px 0px 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .menu__confirmation {
+    background-color: #99e2d0;
+    margin: 0 -80px 0px 0px;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
   }
 }
 @media only screen and (min-width: 375px) and (max-width: 383px) {

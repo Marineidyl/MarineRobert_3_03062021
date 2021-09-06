@@ -5,13 +5,11 @@ body {
 
 main {
   position: relative;
-  z-index: 3;
 }
 
 /* Header */
 header {
   position: relative;
-  z-index: 2;
 }
 
 .about {
@@ -194,6 +192,18 @@ header {
   .restaurants {
     background-color: #F2F2F2;
     padding: 10px 10px;
+  }
+  .restaurants__badge {
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 5px 10px;
+    border-radius: 3px;
+    position: absolute;
+    left: 260px;
+    margin-top: 10px;
+  }
+  .restaurants__new {
+    position: relative;
   }
   .restaurants__link {
     list-style: none;
