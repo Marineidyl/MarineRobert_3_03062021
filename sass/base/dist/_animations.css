@@ -2,7 +2,7 @@
 .restaurants {
   /*Transition*/
 }
-.restaurants__heartbackground--hover {
+.restaurants__heartbackground {
   font-size: 22px;
   padding: 0;
   -webkit-text-stroke-width: 2px;
@@ -10,7 +10,7 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.restaurants__heartbackground--hover:hover {
+.restaurants__heartbackground:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-color: transparent;
   background-clip: text;

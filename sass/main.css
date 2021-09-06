@@ -3,7 +3,7 @@
   /*Transition*/
 }
 
-.restaurants__heartbackground--hover {
+.restaurants__heartbackground {
   font-size: 22px;
   padding: 0;
   -webkit-text-stroke-width: 2px;
@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.restaurants__heartbackground--hover:hover {
+.restaurants__heartbackground:hover {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
   background-color: transparent;
   background-clip: text;
@@ -336,17 +336,12 @@ a:link {
   }
 }
 
-/* Base/Margin/Padding */
+/* BASE */
 body {
   margin: 0;
 }
 
-main {
-  position: relative;
-}
-
-/* Header */
-header {
+main, header {
   position: relative;
 }
 
@@ -361,6 +356,14 @@ header {
 .about__elements {
   background-color: #F2F2F2;
   padding: 0 0 35px 0;
+}
+
+.about__button {
+  border: 0;
+}
+
+.order__button {
+  border: 0;
 }
 
 /* Mobiles */
@@ -579,12 +582,10 @@ header {
   .restaurants__descriptiontitle {
     margin: 0;
     width: 140px;
-    padding: 0px 65px 5px 10px;
+    padding: 0px 90px 5px 10px;
   }
   .restaurants__icons {
-    float: right;
-    position: initial;
-    padding-left: 92px;
+    padding: 15px 0px 0px 50px;
   }
   .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
     margin-bottom: 25px;
@@ -596,7 +597,6 @@ header {
 @media only screen and (min-width: 375px) and (max-width: 383px) {
   body {
     background-color: white;
-    margin: 0;
   }
   /*Header*/
   .header {
@@ -707,7 +707,6 @@ header {
 @media only screen and (min-width: 384px) and (max-width: 409px) {
   body {
     background-color: white;
-    margin: 0;
   }
   /*Header*/
   .header {
@@ -818,7 +817,6 @@ header {
 @media only screen and (min-width: 410px) and (max-width: 411px) {
   body {
     background-color: white;
-    margin: 0;
   }
   /*Header*/
   .header {
@@ -929,7 +927,6 @@ header {
 @media only screen and (min-width: 412px) and (max-width: 413px) {
   body {
     background-color: white;
-    margin: 0;
   }
   /*Header*/
   .header {
@@ -1040,7 +1037,6 @@ header {
 @media only screen and (min-width: 414px) and (max-width: 599px) {
   body {
     background-color: white;
-    margin: 0;
   }
   /*Header*/
   .header {
