@@ -14,7 +14,7 @@ body {
     .header {
         margin: 0;
         &__image {
-            width: 360px;
+            width: 100%;
             height: 235px;
             object-fit: cover;
         }
@@ -41,7 +41,7 @@ body {
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 290px;
+            width: 260px;
         }
         &__title {
             display: flex;
@@ -118,11 +118,10 @@ body {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
-
     .header {
         margin: 0;
         &__image {
-            width: 360px;
+            width: 100%;
             height: 235px;
             object-fit: cover;
         }
@@ -229,7 +228,7 @@ body {
     .header {
         margin: 0;
         &__image {
-            width: 360px;
+            width: 100%;
             height: 235px;
             object-fit: cover;
         }
@@ -256,7 +255,7 @@ body {
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 290px;
+            width: 310px;
         }
         &__title {
             display: flex;
@@ -336,7 +335,7 @@ body {
     .header {
         margin: 0;
         &__image {
-            width: 360px;
+            width: 100%;
             height: 235px;
             object-fit: cover;
         }
@@ -363,7 +362,7 @@ body {
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 290px;
+            width: 315px;
         }
         &__title {
             display: flex;
@@ -443,7 +442,7 @@ body {
     .header {
         margin: 0;
         &__image {
-            width: 360px;
+            width: 100%;
             height: 235px;
             object-fit: cover;
         }
@@ -470,12 +469,12 @@ body {
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 290px;
+            width: 350px;
         }
         &__title {
             display: flex;
             align-items: center;
-            width: 360px;
+            width: 414px;
         }
         &__icon {
             padding: 15px 35px 0px 45px;
