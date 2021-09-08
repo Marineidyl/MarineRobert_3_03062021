@@ -6,14 +6,17 @@ main , header {
     position: relative;
 }
 
-/*Home*/ 
+.localisation {
+    text-align: center;
+}
 .about {
     margin: 0;
     &__title {
         margin: 0;
     }
     &__elements {
-        background-color: #F2F2F2;
+        text-align: center;
+        background-color: #ececec;
         padding: 0 0 35px 0;
     }
     &__button {
@@ -38,8 +41,60 @@ main , header {
     right: 20px;
     margin-top: 10px;
     }
+    &__icons {
+        width: 26px;
+        display: flex;
+        justify-content: center;
+    }
 }
-
+.functioning {
+    &__lists {
+        padding: 0px 0px 0px 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: initial;
+        margin-bottom: 25px;
+        border-radius: 15px;
+        background-color: #F2F2F2;
+        width: 365px;
+    }
+    &__number {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: initial;
+        margin-bottom: 25px;
+        border-radius: 15px;
+        background-color: #F2F2F2;
+    }
+    &__number {
+        border-radius: 15px;
+        background-color: #9356DC;
+        padding: 6px 10px;
+        margin: -15px;
+    }
+    &__iconmobile , &__iconlist , &__iconstore {
+        padding: 0 25px 0 25px;
+    }
+    &__elements {
+        max-width: 1280px;
+        margin: auto;
+        position: relative;
+    }
+}
 
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
@@ -76,6 +131,7 @@ main , header {
         margin: 10px 10px;
         &__lists {
             padding: 0px 0px 0px 15px;
+            flex-direction: column;
         }
         &__list {
             display: flex;
@@ -85,6 +141,7 @@ main , header {
             margin-bottom: 25px;
             border-radius: 15px;
             background-color: #F2F2F2;
+            width: 285px;
         }
         &__number {
             border-radius: 15px;
@@ -183,6 +240,7 @@ main , header {
 
         &__lists {
             padding: 0px 0px 0px 15px;
+            flex-direction: column;
         }
         &__list {
             display: flex;
@@ -192,6 +250,7 @@ main , header {
             margin-bottom: 25px;
             border-radius: 15px;
             background-color: #F2F2F2;
+            width: 325px;
         }
         &__number {
             border-radius: 15px;
@@ -284,6 +343,7 @@ main , header {
 
         &__lists {
             padding: 0px 0px 0px 15px;
+            flex-direction: column;
         }
         &__list {
             display: flex;
@@ -389,6 +449,7 @@ main , header {
         margin: 10px 10px;
         &__lists {
             padding: 0px 0px 0px 15px;
+            flex-direction: column;
         }
         &__list {
             display: flex;
@@ -498,6 +559,7 @@ main , header {
 
         &__lists {
             padding: 0px 0px 0px 15px;
+            flex-direction: column;
         }
         &__list {
             display: flex;

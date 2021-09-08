@@ -336,6 +336,10 @@ a:link {
   cursor: pointer;
 }
 
+header {
+  text-align: center;
+}
+
 /* BASE */
 body {
   margin: 0;
@@ -345,7 +349,10 @@ main, header {
   position: relative;
 }
 
-/*Home*/
+.localisation {
+  text-align: center;
+}
+
 .about {
   margin: 0;
 }
@@ -355,7 +362,8 @@ main, header {
 }
 
 .about__elements {
-  background-color: #F2F2F2;
+  text-align: center;
+  background-color: #ececec;
   padding: 0 0 35px 0;
 }
 
@@ -379,6 +387,72 @@ main, header {
   position: absolute;
   right: 20px;
   margin-top: 10px;
+}
+
+.restaurants__icons {
+  width: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.functioning__lists {
+  padding: 0px 0px 0px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.functioning__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: initial;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+  width: 365px;
+}
+
+.functioning__number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: initial;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+}
+
+.functioning__number {
+  border-radius: 15px;
+  background-color: #9356DC;
+  padding: 6px 10px;
+  margin: -15px;
+}
+
+.functioning__iconmobile, .functioning__iconlist, .functioning__iconstore {
+  padding: 0 25px 0 25px;
+}
+
+.functioning__elements {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
 }
 
 /* Mobiles */
@@ -415,6 +489,10 @@ main, header {
   }
   .functioning__lists {
     padding: 0px 0px 0px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .functioning__list {
     display: -webkit-box;
@@ -428,6 +506,7 @@ main, header {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: #F2F2F2;
+    width: 285px;
   }
   .functioning__number {
     border-radius: 15px;
@@ -527,6 +606,10 @@ main, header {
   }
   .functioning__lists {
     padding: 0px 0px 0px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .functioning__list {
     display: -webkit-box;
@@ -540,6 +623,7 @@ main, header {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: #F2F2F2;
+    width: 325px;
   }
   .functioning__number {
     border-radius: 15px;
@@ -630,6 +714,10 @@ main, header {
   }
   .functioning__lists {
     padding: 0px 0px 0px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .functioning__list {
     display: -webkit-box;
@@ -741,6 +829,10 @@ main, header {
   }
   .functioning__lists {
     padding: 0px 0px 0px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .functioning__list {
     display: -webkit-box;
@@ -855,6 +947,10 @@ main, header {
   }
   .functioning__lists {
     padding: 0px 0px 0px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .functioning__list {
     display: -webkit-box;
@@ -943,17 +1039,6 @@ main, header {
     width: 350px;
     height: 250px;
   }
-}
-
-/* Base/margin/padding */
-.restaurants__icons {
-  width: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 body {
@@ -1530,4 +1615,6 @@ body {
     transition-duration: .5s;
   }
 }
+
+/*Tablets*/
 /*# sourceMappingURL=main.css.map */
