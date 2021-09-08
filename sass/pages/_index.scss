@@ -29,6 +29,8 @@ main , header {
     }
 }
 .restaurants {
+    background-color: #f6f6f6;
+    padding: 20px 0px 20px 0px;
     &__heartbackground {
         margin-top: 10px;
     }
@@ -45,6 +47,36 @@ main , header {
         width: 26px;
         display: flex;
         justify-content: center;
+    }
+    &__section {
+        margin-bottom: 25px;
+        border-radius: 15px;
+        background-color: white;
+    }
+    &__elements {
+        max-width: 1280px;
+        margin: auto;
+        position: relative;
+    }
+    &__image {
+        width: 1280px;
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    &__descriptiontitle {
+        margin: 0;
+        padding: 0px 65px 5px 10px;
+        width: 1160px;
+    }
+    &__elementdescription {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    &__descriptiontext {
+        margin: 0;
+        padding: 0 1155px 5px 10px;
     }
 }
 .functioning {
@@ -197,7 +229,7 @@ main , header {
         &__descriptionicon4 {
             padding: 15px 0px 0px 54px;
         }
-        &__section1, &__section2, &__section3, &__section4 {
+        &__section {
             margin-bottom: 25px;
             border-radius: 15px;
             background-color: rgb(255, 255, 255);
@@ -301,7 +333,7 @@ main , header {
         // &__icons {
         //     padding: 15px 0px 0px 50px;
         // }
-        &__section1, &__section2, &__section3, &__section4 {
+        &__section {
             margin-bottom: 25px;
             border-radius: 15px;
             background-color: rgb(255, 255, 255);
@@ -409,7 +441,7 @@ main , header {
         &__descriptionicon4 {
             padding: 15px 0px 0px 108px;
         }
-        &__section1, &__section2, &__section3, &__section4 {
+        &__section {
             margin-bottom: 25px;
             border-radius: 15px;
             background-color: rgb(255, 255, 255);
@@ -519,7 +551,7 @@ main , header {
         &__descriptionicon4 {
             padding: 15px 0px 0px 118px;
         }
-        &__section1, &__section2, &__section3, &__section4 {
+        &__section {
             margin-bottom: 25px;
             border-radius: 15px;
             background-color: rgb(255, 255, 255);
@@ -630,19 +662,10 @@ main , header {
         &__descriptionicon4 {
             padding: 15px 0px 0px 144px;
         }
-        &__section1, &__section2, &__section3, &__section4 {
+        &__section {
             margin-bottom: 25px;
             border-radius: 15px;
             background-color: rgb(255, 255, 255);
-        }
-    }
-}
-/* Desktop */
-@media only screen and (min-width: 600px) and (max-width: 5119px) {
-    .restaurants {
-        &__image {
-            width: 350px;
-            height: 250px;
         }
     }
 }

@@ -375,6 +375,11 @@ main, header {
   border: 0;
 }
 
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 20px 0px 20px 0px;
+}
+
 .restaurants__heartbackground {
   margin-top: 10px;
 }
@@ -397,6 +402,46 @@ main, header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.restaurants__section {
+  margin-bottom: 25px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.restaurants__elements {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+.restaurants__image {
+  width: 1280px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.restaurants__descriptiontitle {
+  margin: 0;
+  padding: 0px 65px 5px 10px;
+  width: 1160px;
+}
+
+.restaurants__elementdescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.restaurants__descriptiontext {
+  margin: 0;
+  padding: 0 1155px 5px 10px;
 }
 
 .functioning__lists {
@@ -566,7 +611,7 @@ main, header {
   .restaurants__descriptionicon4 {
     padding: 15px 0px 0px 54px;
   }
-  .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
+  .restaurants__section {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: white;
@@ -675,7 +720,7 @@ main, header {
     width: 195px;
     padding: 0px 90px 5px 10px;
   }
-  .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
+  .restaurants__section {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: white;
@@ -791,7 +836,7 @@ main, header {
   .restaurants__descriptionicon4 {
     padding: 15px 0px 0px 108px;
   }
-  .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
+  .restaurants__section {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: white;
@@ -910,7 +955,7 @@ main, header {
   .restaurants__descriptionicon4 {
     padding: 15px 0px 0px 118px;
   }
-  .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
+  .restaurants__section {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: white;
@@ -1029,18 +1074,10 @@ main, header {
   .restaurants__descriptionicon4 {
     padding: 15px 0px 0px 144px;
   }
-  .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
+  .restaurants__section {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: white;
-  }
-}
-
-/* Desktop */
-@media only screen and (min-width: 600px) and (max-width: 5119px) {
-  .restaurants__image {
-    width: 350px;
-    height: 250px;
   }
 }
 
