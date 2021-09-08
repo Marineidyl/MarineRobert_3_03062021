@@ -53,5 +53,14 @@ a:link
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 400;
+  }
 }
+
+.restaurants {
+  &__descriptiontext {
+    color: black; 
+  }
+  &__descriptiontitle {
+    color: black;
+  }
 }

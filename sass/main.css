@@ -264,6 +264,14 @@ a:link {
   font-weight: 400;
 }
 
+.restaurants__descriptiontext {
+  color: black;
+}
+
+.restaurants__descriptiontitle {
+  color: black;
+}
+
 .order {
   text-align: center;
   padding: 15px 0px 40px 0;
@@ -315,10 +323,14 @@ a:link {
 
 .footer__title {
   padding-left: 10px;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .footer__elements {
   padding-left: 10px;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .footer__lists {
