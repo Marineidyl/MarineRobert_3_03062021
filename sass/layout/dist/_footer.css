@@ -1,9 +1,11 @@
 /*Footer*/
 .footer {
   background-color: #353535;
-  padding: 1px 10px;
   color: white;
   text-decoration: none;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
 }
 .footer__lists {
   padding: 0;
@@ -20,8 +22,6 @@
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
   .footer {
-    position: absolute;
-    z-index: 5;
     width: 340px;
   }
 }

@@ -214,10 +214,8 @@
 }
 
 /*Check*/
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-  .menu__item:hover .menu__confirmation {
-    margin-right: 0;
-  }
+.menu__item:hover .menu__confirmation {
+  margin-right: 0;
 }
 
 h1, h6 {
@@ -308,9 +306,19 @@ a:link {
 /*Footer*/
 .footer {
   background-color: #353535;
-  padding: 1px 10px;
   color: white;
   text-decoration: none;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+
+.footer__title {
+  padding-left: 10px;
+}
+
+.footer__elements {
+  padding-left: 10px;
 }
 
 .footer__lists {
@@ -328,14 +336,6 @@ a:link {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-  .footer {
-    position: absolute;
-    z-index: 5;
-    width: 340px;
-  }
-}
-
 /* BASE */
 body {
   margin: 0;
@@ -345,6 +345,7 @@ main, header {
   position: relative;
 }
 
+/*Home*/
 .about {
   margin: 0;
 }
@@ -364,6 +365,20 @@ main, header {
 
 .order__button {
   border: 0;
+}
+
+.restaurants__heartbackground {
+  margin-top: 10px;
+}
+
+.restaurants__badge {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 5px 10px;
+  border-radius: 3px;
+  position: absolute;
+  right: 20px;
+  margin-top: 10px;
 }
 
 /* Mobiles */
@@ -458,6 +473,7 @@ main, header {
   .restaurants__descriptiontitle {
     margin: 0;
     padding: 0px 65px 5px 10px;
+    width: 180px;
   }
   .restaurants__descriptionicon1 {
     padding: 15px 0 0 55px;
@@ -539,15 +555,6 @@ main, header {
     background-color: #F2F2F2;
     padding: 10px 10px;
   }
-  .restaurants__badge {
-    background-color: #99e2d0;
-    color: #1b6150;
-    padding: 5px 10px;
-    border-radius: 3px;
-    position: absolute;
-    right: 20px;
-    margin-top: 10px;
-  }
   .restaurants__new {
     position: relative;
   }
@@ -581,11 +588,8 @@ main, header {
   }
   .restaurants__descriptiontitle {
     margin: 0;
-    width: 140px;
+    width: 195px;
     padding: 0px 90px 5px 10px;
-  }
-  .restaurants__icons {
-    padding: 15px 0px 0px 50px;
   }
   .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
     margin-bottom: 25px;
@@ -684,6 +688,7 @@ main, header {
   .restaurants__descriptiontitle {
     margin: 0;
     padding: 0px 65px 5px 10px;
+    width: 235px;
   }
   .restaurants__descriptionicon1 {
     padding: 15px 0 0 110px;
@@ -764,6 +769,9 @@ main, header {
     background-color: #F2F2F2;
     padding: 10px 10px;
   }
+  .restaurants__badge {
+    margin-top: -165px;
+  }
   .restaurants__link {
     list-style: none;
     text-decoration: none;
@@ -794,6 +802,7 @@ main, header {
   .restaurants__descriptiontitle {
     margin: 0;
     padding: 0px 65px 5px 10px;
+    width: 245px;
   }
   .restaurants__descriptionicon1 {
     padding: 15px 0 0 120px;
@@ -814,7 +823,7 @@ main, header {
   }
 }
 
-@media only screen and (min-width: 410px) and (max-width: 411px) {
+@media only screen and (min-width: 410px) and (max-width: 599px) {
   body {
     background-color: white;
   }
@@ -874,225 +883,8 @@ main, header {
     background-color: #F2F2F2;
     padding: 10px 10px;
   }
-  .restaurants__link {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-  }
-  .restaurants__elements {
-    border-radius: 25px;
-  }
-  .restaurants__image {
-    width: 392px;
-    height: 170px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .restaurants__elementdescription {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
-  }
-  .restaurants__descriptiontext {
-    margin: 0;
-    padding: 0px 150px 5px 10px;
-  }
-  .restaurants__descriptiontitle {
-    margin: 0;
-    padding: 0px 65px 5px 10px;
-  }
-  .restaurants__descriptionicon1 {
-    padding: 15px 0 0 145px;
-  }
-  .restaurants__descriptionicon2 {
-    padding: 15px 0px 0 142px;
-  }
-  .restaurants__descriptionicon3 {
-    padding: 15px 0px 0 177px;
-  }
-  .restaurants__descriptionicon4 {
-    padding: 15px 0px 0px 144px;
-  }
-  .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
-    margin-bottom: 25px;
-    border-radius: 15px;
-    background-color: white;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 413px) {
-  body {
-    background-color: white;
-  }
-  /*Header*/
-  .header {
-    margin: 10px 10px;
-  }
-  .header__logo {
-    text-align: center;
-  }
-  .localisation {
-    text-align: center;
-    background-color: #F2F2F2;
-    padding: 15px 0px 15px 0px;
-  }
-  .localisation__text {
-    background-color: #F2F2F2;
-    border-top: solid #F2F2F2 1px;
-    border-bottom: solid #F2F2F2 1px;
-    border-left: none;
-    border-right: none;
-    width: 90px;
-  }
-  .about__elements {
-    text-align: center;
-  }
-  .functioning {
-    margin: 10px 10px;
-  }
-  .functioning__lists {
-    padding: 0px 0px 0px 15px;
-  }
-  .functioning__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style: none;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: initial;
-    margin-bottom: 25px;
-    border-radius: 15px;
-    background-color: #F2F2F2;
-  }
-  .functioning__number {
-    border-radius: 15px;
-    background-color: #9356DC;
-    padding: 6px 10px;
-    margin: -15px;
-  }
-  .functioning__iconmobile, .functioning__iconlist, .functioning__iconstore {
-    padding: 0 25px 0 25px;
-  }
-  /*Main*/
-  .restaurants {
-    background-color: #F2F2F2;
-    padding: 10px 10px;
-  }
-  .restaurants__link {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-  }
-  .restaurants__elements {
-    border-radius: 25px;
-  }
-  .restaurants__image {
-    width: 392px;
-    height: 170px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .restaurants__elementdescription {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
-  }
-  .restaurants__descriptiontext {
-    margin: 0;
-    padding: 0px 150px 5px 10px;
-  }
-  .restaurants__descriptiontitle {
-    margin: 0;
-    padding: 0px 65px 5px 10px;
-  }
-  .restaurants__descriptionicon1 {
-    padding: 15px 0 0 145px;
-  }
-  .restaurants__descriptionicon2 {
-    padding: 15px 0px 0 142px;
-  }
-  .restaurants__descriptionicon3 {
-    padding: 15px 0px 0 177px;
-  }
-  .restaurants__descriptionicon4 {
-    padding: 15px 0px 0px 144px;
-  }
-  .restaurants__section1, .restaurants__section2, .restaurants__section3, .restaurants__section4 {
-    margin-bottom: 25px;
-    border-radius: 15px;
-    background-color: white;
-  }
-}
-
-@media only screen and (min-width: 414px) and (max-width: 599px) {
-  body {
-    background-color: white;
-  }
-  /*Header*/
-  .header {
-    margin: 10px 10px;
-  }
-  .header__logo {
-    text-align: center;
-  }
-  .localisation {
-    text-align: center;
-    background-color: #F2F2F2;
-    padding: 15px 0px 15px 0px;
-  }
-  .localisation__text {
-    background-color: #F2F2F2;
-    border-top: solid #F2F2F2 1px;
-    border-bottom: solid #F2F2F2 1px;
-    border-left: none;
-    border-right: none;
-    width: 90px;
-  }
-  .about__elements {
-    text-align: center;
-  }
-  .functioning {
-    margin: 10px 10px;
-  }
-  .functioning__lists {
-    padding: 0px 0px 0px 15px;
-  }
-  .functioning__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style: none;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: initial;
-    margin-bottom: 25px;
-    border-radius: 15px;
-    background-color: #F2F2F2;
-  }
-  .functioning__number {
-    border-radius: 15px;
-    background-color: #9356DC;
-    padding: 6px 10px;
-    margin: -15px;
-  }
-  .functioning__iconmobile, .functioning__iconlist, .functioning__iconstore {
-    padding: 0 25px 0 25px;
-  }
-  /*Main*/
-  .restaurants {
-    background-color: #F2F2F2;
-    padding: 10px 10px;
+  .restaurants__badge {
+    margin-top: -165px;
   }
   .restaurants__link {
     list-style: none;
@@ -1124,6 +916,7 @@ main, header {
   .restaurants__descriptiontitle {
     margin: 0;
     padding: 0px 65px 5px 10px;
+    width: 270px;
   }
   .restaurants__descriptionicon1 {
     padding: 15px 0 0 145px;
@@ -1163,97 +956,12 @@ main, header {
           justify-content: center;
 }
 
-/*Mobiles*/
-@media only screen and (min-width: 320px) and (max-width: 359px) {
-  body {
-    background-color: white;
-  }
-  .header {
-    margin: 0;
-  }
-  .header__image {
-    width: 320px;
-    height: 235px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .header__text {
-    width: 100%;
-    margin: 10px 25px 0 0;
-  }
-  .header__link {
-    margin: 20px 10px;
-    color: gray;
-  }
-  .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .menu {
-    background-color: #ececec;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    margin-top: -3rem;
-    position: relative;
-  }
-  .menu__name {
-    margin: 0;
-    padding: 20px 0px 5px 15px;
-    width: 200px;
-  }
-  .menu__title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 320px;
-  }
-  .menu__icon {
-    padding: 15px 35px 0px 45px;
-    font-size: 25px;
-  }
-  .menu__section {
-    margin: 10px 10px;
-  }
-  .menu__presentation {
-    border-radius: 15px;
-    background-color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 15px 0 0 0px;
-  }
-  .menu__price {
-    margin: 0;
-    width: 50px;
-  }
-  .menu__presentationtext {
-    margin: 0;
-    padding: 0px 0px 2px 15px;
-    width: 235px;
-  }
-  .menu__presentationtitle {
-    margin: 0;
-    padding: 15px 0px 5px 15px;
-    width: 340px;
-  }
-  .menu__titlecategorie {
-    padding-left: 5px;
-    margin: 0;
-  }
+body {
+  background-color: white;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-  body {
-    background-color: white;
-  }
+/*Mobiles*/
+@media only screen and (min-width: 320px) and (max-width: 359px) {
   .header {
     margin: 0;
   }
@@ -1289,7 +997,121 @@ main, header {
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 240px;
+    width: 290px;
+  }
+  .menu__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 360px;
+  }
+  .menu__icon {
+    padding: 15px 35px 0px 45px;
+    font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .menu__section {
+    margin: 10px 10px;
+  }
+  .menu__check {
+    width: 340px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 0;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 0px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
+  }
+  .menu__price {
+    margin: 35px 25px 0px 25px;
+  }
+  .menu__presentation {
+    border-radius: 15px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 15px 0 0 0px;
+  }
+  .menu__item {
+    background-color: #fff;
+    padding: 0px 0px 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .menu__confirmation {
+    background-color: #99e2d0;
+    margin: 0 -80px 0px 0px;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+  .header {
+    margin: 0;
+  }
+  .header__image {
+    width: 360px;
+    height: 235px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .header__text {
+    width: 100%;
+    margin: 10px 25px 0 0;
+  }
+  .header__link {
+    margin: 20px 10px;
+    color: gray;
+  }
+  .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu {
+    background-color: #ececec;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: -3rem;
+    position: relative;
+    /*Check*/
+  }
+  .menu__name {
+    margin: 0;
+    padding: 20px 0px 5px 15px;
+    width: 290px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1368,14 +1190,11 @@ main, header {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
-  body {
-    background-color: white;
-  }
   .header {
     margin: 0;
   }
   .header__image {
-    width: 375px;
+    width: 360px;
     height: 235px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1401,11 +1220,12 @@ main, header {
     border-bottom-left-radius: 0;
     margin-top: -3rem;
     position: relative;
+    /*Check*/
   }
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 200px;
+    width: 290px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1414,14 +1234,34 @@ main, header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 375px;
+    width: 360px;
   }
   .menu__icon {
-    padding: 15px 35px 0px 100px;
+    padding: 15px 35px 0px 45px;
     font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
   .menu__section {
     margin: 10px 10px;
+  }
+  .menu__check {
+    width: 340px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 0;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 0px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
+  }
+  .menu__price {
+    margin: 35px 25px 0px 25px;
   }
   .menu__presentation {
     border-radius: 15px;
@@ -1430,123 +1270,45 @@ main, header {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 15px 0 0 0px;
   }
-  .menu__price {
-    margin: 0;
-    width: 50px;
+  .menu__item {
+    background-color: #fff;
+    padding: 0px 0px 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
-  .menu__presentationtext {
-    margin: 0;
-    padding: 0px 0px 2px 15px;
-    width: 290px;
-  }
-  .menu__presentationtitle {
-    margin: 0;
-    padding: 15px 0px 5px 15px;
-    width: 340px;
-  }
-  .menu__titlecategorie {
-    padding-left: 5px;
-    margin: 0;
+  .menu__confirmation {
+    background-color: #99e2d0;
+    margin: 0 -80px 0px 0px;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
   }
 }
 
 @media only screen and (min-width: 384px) and (max-width: 409px) {
-  body {
-    background-color: white;
-  }
   .header {
     margin: 0;
   }
   .header__image {
-    width: 384px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .header__text {
-    width: 100%;
-    margin: 10px 25px 0 0;
-  }
-  .header__link {
-    margin: 20px 10px;
-    color: gray;
-  }
-  .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .menu {
-    background-color: #ececec;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    margin-top: -3rem;
-    position: relative;
-  }
-  .menu__name {
-    margin: 0;
-    padding: 20px 0px 5px 15px;
-    width: 264px;
-  }
-  .menu__title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 384px;
-  }
-  .menu__icon {
-    padding: 15px 35px 0px 45px;
-    font-size: 25px;
-  }
-  .menu__section {
-    margin: 10px 10px;
-  }
-  .menu__presentation {
-    border-radius: 15px;
-    background-color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 15px 0 0 0px;
-  }
-  .menu__price {
-    margin: 0;
-    width: 50px;
-  }
-  .menu__presentationtext {
-    margin: 0;
-    padding: 0px 0px 2px 15px;
-    width: 299px;
-  }
-  .menu__presentationtitle {
-    margin: 0;
-    padding: 15px 0px 5px 15px;
-    width: 350px;
-  }
-  .menu__titlecategorie {
-    padding-left: 5px;
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width: 410px) and (max-width: 413px) {
-  body {
-    background-color: white;
-  }
-  .header {
-    margin: 0;
-  }
-  .header__image {
-    width: 412px;
+    width: 360px;
     height: 235px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1572,11 +1334,12 @@ main, header {
     border-bottom-left-radius: 0;
     margin-top: -3rem;
     position: relative;
+    /*Check*/
   }
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 292px;
+    width: 290px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1585,14 +1348,34 @@ main, header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 412px;
+    width: 360px;
   }
   .menu__icon {
     padding: 15px 35px 0px 45px;
     font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
   .menu__section {
     margin: 10px 10px;
+  }
+  .menu__check {
+    width: 340px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 0;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 0px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
+  }
+  .menu__price {
+    margin: 35px 25px 0px 25px;
   }
   .menu__presentation {
     border-radius: 15px;
@@ -1601,38 +1384,45 @@ main, header {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 15px 0 0 0px;
   }
-  .menu__price {
-    margin: 0;
-    width: 50px;
+  .menu__item {
+    background-color: #fff;
+    padding: 0px 0px 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
-  .menu__presentationtext {
-    margin: 0;
-    padding: 0px 0px 2px 15px;
-    width: 325px;
-  }
-  .menu__presentationtitle {
-    margin: 0;
-    padding: 15px 0px 5px 15px;
-    width: 375px;
-  }
-  .menu__titlecategorie {
-    padding-left: 5px;
-    margin: 0;
+  .menu__confirmation {
+    background-color: #99e2d0;
+    margin: 0 -80px 0px 0px;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
   }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 599px) {
-  body {
-    background-color: white;
-  }
+@media only screen and (min-width: 410px) and (max-width: 599px) {
   .header {
     margin: 0;
   }
   .header__image {
-    width: 414px;
+    width: 360px;
     height: 235px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1658,11 +1448,12 @@ main, header {
     border-bottom-left-radius: 0;
     margin-top: -3rem;
     position: relative;
+    /*Check*/
   }
   .menu__name {
     margin: 0;
     padding: 20px 0px 5px 15px;
-    width: 294px;
+    width: 290px;
   }
   .menu__title {
     display: -webkit-box;
@@ -1671,14 +1462,34 @@ main, header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 414px;
+    width: 360px;
   }
   .menu__icon {
     padding: 15px 35px 0px 45px;
     font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
   .menu__section {
     margin: 10px 10px;
+  }
+  .menu__check {
+    width: 340px;
+  }
+  .menu__presentationtext {
+    margin: 0;
+    padding: 0;
+  }
+  .menu__presentationtitle {
+    margin: 0;
+    padding: 15px 0px 5px 0px;
+  }
+  .menu__titlecategorie {
+    padding-left: 5px;
+    margin: 0;
+  }
+  .menu__price {
+    margin: 35px 25px 0px 25px;
   }
   .menu__presentation {
     border-radius: 15px;
@@ -1687,26 +1498,36 @@ main, header {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 15px 0 0 0px;
   }
-  .menu__price {
-    margin: 0;
-    width: 50px;
+  .menu__item {
+    background-color: #fff;
+    padding: 0px 0px 0px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
-  .menu__presentationtext {
-    margin: 0;
-    padding: 0px 0px 2px 15px;
-    width: 329px;
-  }
-  .menu__presentationtitle {
-    margin: 0;
-    padding: 15px 0px 5px 15px;
-    width: 380px;
-  }
-  .menu__titlecategorie {
-    padding-left: 5px;
-    margin: 0;
+  .menu__confirmation {
+    background-color: #99e2d0;
+    margin: 0 -80px 0px 0px;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
   }
 }
 /*# sourceMappingURL=main.css.map */

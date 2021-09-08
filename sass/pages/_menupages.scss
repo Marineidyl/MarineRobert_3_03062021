@@ -6,87 +6,11 @@
         justify-content: center;
     }
 }
+body {
+    background-color: rgb(255, 255, 255);
+}
 /*Mobiles*/ 
 @media only screen and (min-width: 320px) and (max-width: 359px) {
-    body {
-        background-color: rgb(255, 255, 255);
-    }
-    .header {
-        margin: 0;
-        &__image {
-            width: 320px;
-            height: 235px;
-            object-fit: cover;
-        }
-        &__text {
-            width: 100%;
-            margin: 10px 25px 0 0;
-        }
-        &__link {
-            margin: 20px 10px;
-            color: gray;
-        }
-        &__nav {
-            display: flex;
-        }
-    }
-    .menu {
-        background-color: #ececec;
-        border-top-left-radius: 40px;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-        margin-top: -3rem;
-        position: relative;
-        &__name {
-            margin: 0;
-            padding: 20px 0px 5px 15px;
-            width: 200px;
-        }
-        &__title {
-            display: flex;
-            align-items: center;
-            width: 320px;
-        }
-        &__icon {
-            padding: 15px 35px 0px 45px;
-            font-size: 25px;
-        }
-        &__section {
-            margin: 10px 10px;
-        }
-        &__presentation {
-            border-radius: 15px;
-            background-color: white;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 15px 0 0 0px;
-        }
-        &__price {
-            margin: 0;
-            width: 50px;
-        }
-        &__presentationtext {
-            margin: 0;
-            padding: 0px 0px 2px 15px;
-            width: 235px;
-        }
-        &__presentationtitle {
-            margin: 0;
-            padding: 15px 0px 5px 15px;
-            width: 340px;
-        }
-        &__titlecategorie {
-            padding-left: 5px;
-            margin: 0;
-        }
-    }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-    body {
-        background-color: rgb(255, 255, 255);
-    }
     .header {
         margin: 0;
         &__image {
@@ -117,7 +41,115 @@
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 240px;
+            width: 290px;
+        }
+        &__title {
+            display: flex;
+            align-items: center;
+            width: 360px;
+        }
+        &__icon {
+            padding: 15px 35px 0px 45px;
+            font-size: 25px;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+        &__section {
+            margin: 10px 10px;
+        }
+        &__check {
+            width: 340px;
+        }
+        &__presentationtext {
+            margin: 0;
+            padding: 0;
+        }
+        &__presentationtitle {
+            margin: 0;
+            padding: 15px 0px 5px 0px;
+        }
+        &__titlecategorie {
+            padding-left: 5px;
+            margin: 0;
+        }
+        /*Check*/ 
+        &__price {
+            margin: 35px 25px 0px 25px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__item {
+            background-color: #fff;
+            padding: 0px 0px 0px 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            border-radius: 10px;
+            margin: 10px 10px;
+            cursor: pointer;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }  
+        &__confirmation {
+            background-color: #99e2d0;
+            margin: 0 -80px 0px 0px;
+            width: 80px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+        }  
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+
+    .header {
+        margin: 0;
+        &__image {
+            width: 360px;
+            height: 235px;
+            object-fit: cover;
+        }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
+    }
+    .menu {
+        background-color: #ececec;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -3rem;
+        position: relative;
+        &__name {
+            margin: 0;
+            padding: 20px 0px 5px 15px;
+            width: 290px;
         }
         &__title {
             display: flex;
@@ -194,13 +226,10 @@
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
-    body {
-        background-color: rgb(255, 255, 255);
-    }
     .header {
         margin: 0;
         &__image {
-            width: 375px;
+            width: 360px;
             height: 235px;
             object-fit: cover;
         }
@@ -227,132 +256,87 @@
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 200px;
+            width: 290px;
         }
         &__title {
             display: flex;
             align-items: center;
-            width: 375px;
-
+            width: 360px;
         }
         &__icon {
-            padding: 15px 35px 0px 100px;
+            padding: 15px 35px 0px 45px;
             font-size: 25px;
+            background-clip: text;
+            -webkit-background-clip: text;
         }
         &__section {
             margin: 10px 10px;
         }
-        &__presentation {
-            border-radius: 15px;
-            background-color: white;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 15px 0 0 0px;
-        }
-        &__price {
-            margin: 0;
-            width: 50px;
+        &__check {
+            width: 340px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 0px 0px 2px 15px;
-            width: 290px;
+            padding: 0;
         }
         &__presentationtitle {
             margin: 0;
-            padding: 15px 0px 5px 15px;
-            width: 340px;
+            padding: 15px 0px 5px 0px;
         }
         &__titlecategorie {
             padding-left: 5px;
             margin: 0;
         }
+        /*Check*/ 
+        &__price {
+            margin: 35px 25px 0px 25px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__item {
+            background-color: #fff;
+            padding: 0px 0px 0px 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            border-radius: 10px;
+            margin: 10px 10px;
+            cursor: pointer;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }  
+        &__confirmation {
+            background-color: #99e2d0;
+            margin: 0 -80px 0px 0px;
+            width: 80px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+        }  
     }
 }
 
 @media only screen and (min-width: 384px) and (max-width: 409px) {
-    body {
-        background-color: rgb(255, 255, 255);
-    }
     .header {
         margin: 0;
         &__image {
-            width: 384px;
-            object-fit: cover;
-        }
-        &__text {
-            width: 100%;
-            margin: 10px 25px 0 0;
-        }
-        &__link {
-            margin: 20px 10px;
-            color: gray;
-        }
-        &__nav {
-            display: flex;
-        }
-    }
-    .menu {
-        background-color: #ececec;
-        border-top-left-radius: 40px;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-        margin-top: -3rem;
-        position: relative;
-        &__name {
-            margin: 0;
-            padding: 20px 0px 5px 15px;
-            width: 264px;
-        }
-        &__title {
-            display: flex;
-            align-items: center;
-            width: 384px;
-        }
-        &__icon {
-            padding: 15px 35px 0px 45px;
-            font-size: 25px;
-        }
-        &__section {
-            margin: 10px 10px;
-        }
-        &__presentation {
-            border-radius: 15px;
-            background-color: white;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 15px 0 0 0px;
-        }
-        &__price {
-            margin: 0;
-            width: 50px;
-        }
-        &__presentationtext {
-            margin: 0;
-            padding: 0px 0px 2px 15px;
-            width: 299px;
-        }
-        &__presentationtitle {
-            margin: 0;
-            padding: 15px 0px 5px 15px;
-            width: 350px;
-        }
-        &__titlecategorie {
-            padding-left: 5px;
-            margin: 0;
-        }
-    }
-}
-
-@media only screen and (min-width: 410px) and (max-width: 413px) {
-    body {
-        background-color: rgb(255, 255, 255);
-    }
-    .header {
-        margin: 0;
-        &__image {
-            width: 412px;
+            width: 360px;
             height: 235px;
             object-fit: cover;
         }
@@ -379,56 +363,87 @@
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 292px;
+            width: 290px;
         }
         &__title {
             display: flex;
             align-items: center;
-            width: 412px;
+            width: 360px;
         }
         &__icon {
             padding: 15px 35px 0px 45px;
             font-size: 25px;
+            background-clip: text;
+            -webkit-background-clip: text;
         }
         &__section {
             margin: 10px 10px;
         }
-        &__presentation {
-            border-radius: 15px;
-            background-color: white;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 15px 0 0 0px;
-        }
-        &__price {
-            margin: 0;
-            width: 50px;
+        &__check {
+            width: 340px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 0px 0px 2px 15px;
-            width: 325px;
+            padding: 0;
         }
         &__presentationtitle {
             margin: 0;
-            padding: 15px 0px 5px 15px;
-            width: 375px;
+            padding: 15px 0px 5px 0px;
         }
         &__titlecategorie {
             padding-left: 5px;
             margin: 0;
         }
+        /*Check*/ 
+        &__price {
+            margin: 35px 25px 0px 25px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__item {
+            background-color: #fff;
+            padding: 0px 0px 0px 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            border-radius: 10px;
+            margin: 10px 10px;
+            cursor: pointer;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }  
+        &__confirmation {
+            background-color: #99e2d0;
+            margin: 0 -80px 0px 0px;
+            width: 80px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+        }  
     }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 599px) {
-    body {
-        background-color: rgb(255, 255, 255);
-    }
+@media only screen and (min-width: 410px) and (max-width: 599px) {
     .header {
         margin: 0;
         &__image {
-            width: 414px;
+            width: 360px;
             height: 235px;
             object-fit: cover;
         }
@@ -455,44 +470,78 @@
         &__name {
             margin: 0;
             padding: 20px 0px 5px 15px;
-            width: 294px;
+            width: 290px;
         }
         &__title {
             display: flex;
             align-items: center;
-            width: 414px;
+            width: 360px;
         }
         &__icon {
             padding: 15px 35px 0px 45px;
             font-size: 25px;
+            background-clip: text;
+            -webkit-background-clip: text;
         }
         &__section {
             margin: 10px 10px;
         }
-        &__presentation {
-            border-radius: 15px;
-            background-color: white;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 15px 0 0 0px;
-        }
-        &__price {
-            margin: 0;
-            width: 50px;
+        &__check {
+            width: 340px;
         }
         &__presentationtext {
             margin: 0;
-            padding: 0px 0px 2px 15px;
-            width: 329px;
+            padding: 0;
         }
         &__presentationtitle {
             margin: 0;
-            padding: 15px 0px 5px 15px;
-            width: 380px;
+            padding: 15px 0px 5px 0px;
         }
         &__titlecategorie {
             padding-left: 5px;
             margin: 0;
         }
+        /*Check*/ 
+        &__price {
+            margin: 35px 25px 0px 25px;
+        }
+        &__presentation {
+            border-radius: 15px;
+            background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 15px 0 0 0px;
+        }
+        &__item {
+            background-color: #fff;
+            padding: 0px 0px 0px 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            border-radius: 10px;
+            margin: 10px 10px;
+            cursor: pointer;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }  
+        &__confirmation {
+            background-color: #99e2d0;
+            margin: 0 -80px 0px 0px;
+            width: 80px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+        }  
     }
 }

@@ -5,6 +5,8 @@ body {
 main , header {
     position: relative;
 }
+
+/*Home*/ 
 .about {
     margin: 0;
     &__title {
@@ -23,13 +25,28 @@ main , header {
         border: 0;
     }
 }
+.restaurants {
+    &__heartbackground {
+        margin-top: 10px;
+    }
+    &__badge {
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 5px 10px;
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+    }
+}
+
+
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
     body {
         background-color:white;
         margin: 0;
     }
-
     /*Header*/ 
     .header {
         margin: 10px 10px;
@@ -37,7 +54,6 @@ main , header {
             text-align: center;
         }
     }
-
     .localisation {
         text-align: center;
         background-color: #F2F2F2;
@@ -51,16 +67,13 @@ main , header {
             width: 90px;
         }
     }
-
     .about {
         &__elements {
             text-align: center;
         }
     }
-
     .functioning {
         margin: 10px 10px;
-
         &__lists {
             padding: 0px 0px 0px 15px;
         }
@@ -113,6 +126,7 @@ main , header {
         &__descriptiontitle {
             margin: 0;
             padding: 0px 65px 5px 10px;
+            width: 180px;
         }
         &__descriptionicon1 {
             padding: 15px 0 0 55px;
@@ -193,15 +207,6 @@ main , header {
     .restaurants {
         background-color: #F2F2F2;
         padding: 10px 10px;
-        &__badge {
-            background-color: #99e2d0;
-            color: #1b6150;
-            padding: 5px 10px;
-            border-radius: 3px;
-            position: absolute;
-            right: 20px;
-            margin-top: 10px;
-        }
         &__new {
             position: relative;
         }
@@ -231,12 +236,12 @@ main , header {
         }
         &__descriptiontitle {
             margin: 0;
-            width: 140px;
+            width: 195px;
             padding: 0px 90px 5px 10px;
         }
-        &__icons {
-            padding: 15px 0px 0px 50px;
-        }
+        // &__icons {
+        //     padding: 15px 0px 0px 50px;
+        // }
         &__section1, &__section2, &__section3, &__section4 {
             margin-bottom: 25px;
             border-radius: 15px;
@@ -303,7 +308,6 @@ main , header {
     .restaurants {
         background-color: #F2F2F2;
         padding: 10px 10px;
-
         &__link {
             list-style: none;
             text-decoration: none;
@@ -330,6 +334,7 @@ main , header {
         &__descriptiontitle {
             margin: 0;
             padding: 0px 65px 5px 10px;
+            width: 235px;
         }
         &__descriptionicon1 {
             padding: 15px 0 0 110px;
@@ -382,7 +387,6 @@ main , header {
     }
     .functioning {
         margin: 10px 10px;
-
         &__lists {
             padding: 0px 0px 0px 15px;
         }
@@ -409,6 +413,9 @@ main , header {
     .restaurants {
         background-color: #F2F2F2;
         padding: 10px 10px;
+        &__badge {
+            margin-top: -165px;
+        }
         &__link {
             list-style: none;
             text-decoration: none;
@@ -435,6 +442,7 @@ main , header {
         &__descriptiontitle {
             margin: 0;
             padding: 0px 65px 5px 10px;
+            width: 245px;
         }
         &__descriptionicon1 {
             padding: 15px 0 0 120px;
@@ -456,120 +464,13 @@ main , header {
     }
 }
 
-@media only screen and (min-width: 410px) and (max-width: 411px) {
+@media only screen and (min-width: 410px) and (max-width: 599px) {
     body {
         background-color:rgb(255, 255, 255);
     }
     /*Header*/ 
     .header {
         margin: 10px 10px;
-
-        &__logo {
-            text-align: center;
-        }
-    }
-    .localisation {
-        text-align: center;
-        background-color: #F2F2F2;
-        padding: 15px 0px 15px 0px;
-        &__text {
-            background-color: #F2F2F2;
-            border-top: solid #F2F2F2 1px;
-            border-bottom: solid #F2F2F2 1px;
-            border-left: none;
-            border-right: none;
-            width: 90px;
-        }
-    }
-    .about {
-        &__elements {
-            text-align: center;
-        }
-    }
-    .functioning {
-        margin: 10px 10px;
-        &__lists {
-            padding: 0px 0px 0px 15px;
-        }
-        &__list {
-            display: flex;
-            list-style: none;
-            align-items: center;
-            padding: initial;
-            margin-bottom: 25px;
-            border-radius: 15px;
-            background-color: #F2F2F2;
-        }
-        &__number {
-            border-radius: 15px;
-            background-color: #9356DC;
-            padding: 6px 10px;
-            margin: -15px;
-        }
-        &__iconmobile , &__iconlist , &__iconstore {
-            padding: 0 25px 0 25px;
-        }
-    }
-    /*Main*/ 
-    .restaurants {
-        background-color: #F2F2F2;
-        padding: 10px 10px;
-
-        &__link {
-            list-style: none;
-            text-decoration: none;
-            color: black;
-        }        
-        &__elements {
-            border-radius: 25px;
-        }
-        &__image {
-            width: 392px;
-            height: 170px;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            object-fit: cover;
-        }
-        &__elementdescription {
-            display: flex;
-            flex-wrap: wrap-reverse;
-        }
-        &__descriptiontext {
-            margin: 0;
-            padding: 0px 150px 5px 10px;
-        }
-        &__descriptiontitle {
-            margin: 0;
-            padding: 0px 65px 5px 10px;
-        }
-        &__descriptionicon1 {
-            padding: 15px 0 0 145px;
-        }
-        &__descriptionicon2 {
-            padding: 15px 0px 0 142px;
-        }
-        &__descriptionicon3 {
-            padding: 15px 0px 0 177px;
-        }
-        &__descriptionicon4 {
-            padding: 15px 0px 0px 144px;
-        }
-        &__section1, &__section2, &__section3, &__section4 {
-            margin-bottom: 25px;
-            border-radius: 15px;
-            background-color: rgb(255, 255, 255);
-        }
-    }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 413px) {
-    body {
-        background-color:rgb(255, 255, 255);
-    }
-    /*Header*/ 
-    .header {
-        margin: 10px 10px;
-
         &__logo {
             text-align: center;
         }
@@ -621,113 +522,9 @@ main , header {
     .restaurants {
         background-color: #F2F2F2;
         padding: 10px 10px;
-        &__link {
-            list-style: none;
-            text-decoration: none;
-            color: black;
-        }        
-        &__elements {
-            border-radius: 25px;
+        &__badge {
+            margin-top: -165px;
         }
-        &__image {
-            width: 392px;
-            height: 170px;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            object-fit: cover;
-        }
-        &__elementdescription {
-            display: flex;
-            flex-wrap: wrap-reverse;
-        }
-        &__descriptiontext {
-            margin: 0;
-            padding: 0px 150px 5px 10px;
-        }
-        &__descriptiontitle {
-            margin: 0;
-            padding: 0px 65px 5px 10px;
-        }
-        &__descriptionicon1 {
-            padding: 15px 0 0 145px;
-        }
-        &__descriptionicon2 {
-            padding: 15px 0px 0 142px;
-        }
-        &__descriptionicon3 {
-            padding: 15px 0px 0 177px;
-        }
-        &__descriptionicon4 {
-            padding: 15px 0px 0px 144px;
-        }
-        &__section1, &__section2, &__section3, &__section4 {
-            margin-bottom: 25px;
-            border-radius: 15px;
-            background-color: rgb(255, 255, 255);
-        }
-    }
-}
-
-@media only screen and (min-width: 414px) and (max-width: 599px) {
-    body {
-        background-color:rgb(255, 255, 255);
-    }
-    /*Header*/ 
-    .header {
-        margin: 10px 10px;
-
-        &__logo {
-            text-align: center;
-        }
-    }
-    .localisation {
-        text-align: center;
-        background-color: #F2F2F2;
-        padding: 15px 0px 15px 0px;
-        &__text {
-            background-color: #F2F2F2;
-            border-top: solid #F2F2F2 1px;
-            border-bottom: solid #F2F2F2 1px;
-            border-left: none;
-            border-right: none;
-            width: 90px;
-        }
-    }
-    .about {
-        &__elements {
-            text-align: center;
-        }
-    }
-    .functioning {
-        margin: 10px 10px;
-
-        &__lists {
-            padding: 0px 0px 0px 15px;
-        }
-        &__list {
-            display: flex;
-            list-style: none;
-            align-items: center;
-            padding: initial;
-            margin-bottom: 25px;
-            border-radius: 15px;
-            background-color: #F2F2F2;
-        }
-        &__number {
-            border-radius: 15px;
-            background-color: #9356DC;
-            padding: 6px 10px;
-            margin: -15px;
-        }
-        &__iconmobile , &__iconlist , &__iconstore {
-            padding: 0 25px 0 25px;
-        }
-    }
-    /*Main*/ 
-    .restaurants {
-        background-color: #F2F2F2;
-        padding: 10px 10px;
-
         &__link {
             list-style: none;
             text-decoration: none;
@@ -754,6 +551,7 @@ main , header {
         &__descriptiontitle {
             margin: 0;
             padding: 0px 65px 5px 10px;
+            width: 270px;
         }
         &__descriptionicon1 {
             padding: 15px 0 0 145px;
@@ -773,7 +571,6 @@ main , header {
             background-color: rgb(255, 255, 255);
         }
     }
-
 }
 /* Desktop */
 @media only screen and (min-width: 600px) and (max-width: 5119px) {

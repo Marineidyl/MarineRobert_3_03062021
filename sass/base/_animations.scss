@@ -128,8 +128,8 @@
 }
 
 /*Check*/ 
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-  .menu__item:hover .menu__confirmation {
-    margin-right: 0;
-  }
+
+.menu__item:hover .menu__confirmation {
+  margin-right: 0;
 }
+
