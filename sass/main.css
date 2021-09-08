@@ -731,6 +731,7 @@ main, header {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: #F2F2F2;
+    width: 340px;
   }
   .functioning__number {
     border-radius: 15px;
@@ -846,6 +847,7 @@ main, header {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: #F2F2F2;
+    width: 350px;
   }
   .functioning__number {
     border-radius: 15px;
@@ -873,7 +875,7 @@ main, header {
     border-radius: 25px;
   }
   .restaurants__image {
-    width: 365px;
+    width: 392px;
     height: 170px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -964,6 +966,7 @@ main, header {
     margin-bottom: 25px;
     border-radius: 15px;
     background-color: #F2F2F2;
+    width: 380px;
   }
   .functioning__number {
     border-radius: 15px;
