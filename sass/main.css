@@ -355,6 +355,7 @@ header {
 /* BASE */
 body {
   margin: 0;
+  background-color: white;
 }
 
 main, header {
@@ -364,6 +365,16 @@ main, header {
 
 .localisation {
   text-align: center;
+  background-color: #DDD;
+}
+
+.localisation__text {
+  background-color: #DDD;
+  border-top: solid #DDD 1px;
+  border-bottom: solid #DDD 1px;
+  border-left: none;
+  border-right: none;
+  width: 90px;
 }
 
 .about {
@@ -515,10 +526,6 @@ main, header {
 
 /* Mobiles */
 @media only screen and (min-width: 320px) and (max-width: 359px) {
-  body {
-    background-color: white;
-    margin: 0;
-  }
   /*Header*/
   .header {
     margin: 10px 10px;
@@ -528,16 +535,7 @@ main, header {
   }
   .localisation {
     text-align: center;
-    background-color: #F2F2F2;
     padding: 15px 0px 15px 0px;
-  }
-  .localisation__text {
-    background-color: #F2F2F2;
-    border-top: solid #F2F2F2 1px;
-    border-bottom: solid #F2F2F2 1px;
-    border-left: none;
-    border-right: none;
-    width: 90px;
   }
   .about__elements {
     text-align: center;
@@ -632,10 +630,6 @@ main, header {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 374px) {
-  body {
-    background-color: white;
-    margin: 0;
-  }
   /*Header*/
   .header {
     margin: 10px 10px;
@@ -645,16 +639,7 @@ main, header {
   }
   .localisation {
     text-align: center;
-    background-color: #F2F2F2;
     padding: 15px 0px 15px 0px;
-  }
-  .localisation__text {
-    background-color: #F2F2F2;
-    border-top: solid #F2F2F2 1px;
-    border-bottom: solid #F2F2F2 1px;
-    border-left: none;
-    border-right: none;
-    width: 90px;
   }
   .about__elements {
     text-align: center;
@@ -741,9 +726,6 @@ main, header {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
-  body {
-    background-color: white;
-  }
   /*Header*/
   .header {
     margin: 10px 10px;
@@ -753,16 +735,7 @@ main, header {
   }
   .localisation {
     text-align: center;
-    background-color: #F2F2F2;
     padding: 15px 0px 15px 0px;
-  }
-  .localisation__text {
-    background-color: #F2F2F2;
-    border-top: solid #F2F2F2 1px;
-    border-bottom: solid #F2F2F2 1px;
-    border-left: none;
-    border-right: none;
-    width: 90px;
   }
   .about__elements {
     text-align: center;
@@ -857,9 +830,6 @@ main, header {
 }
 
 @media only screen and (min-width: 384px) and (max-width: 409px) {
-  body {
-    background-color: white;
-  }
   /*Header*/
   .header {
     margin: 10px 10px;
@@ -868,17 +838,7 @@ main, header {
     text-align: center;
   }
   .localisation {
-    text-align: center;
-    background-color: #F2F2F2;
     padding: 15px 0px 15px 0px;
-  }
-  .localisation__text {
-    background-color: #F2F2F2;
-    border-top: solid #F2F2F2 1px;
-    border-bottom: solid #F2F2F2 1px;
-    border-left: none;
-    border-right: none;
-    width: 90px;
   }
   .about__elements {
     text-align: center;
@@ -933,7 +893,7 @@ main, header {
     border-radius: 25px;
   }
   .restaurants__image {
-    width: 392px;
+    width: 364px;
     height: 170px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -987,17 +947,7 @@ main, header {
     text-align: center;
   }
   .localisation {
-    text-align: center;
-    background-color: #F2F2F2;
     padding: 15px 0px 15px 0px;
-  }
-  .localisation__text {
-    background-color: #F2F2F2;
-    border-top: solid #F2F2F2 1px;
-    border-bottom: solid #F2F2F2 1px;
-    border-left: none;
-    border-right: none;
-    width: 90px;
   }
   .about__elements {
     text-align: center;
