@@ -6,6 +6,17 @@
   position: absolute;
   z-index: 5;
   width: 100%;
+  padding: 0;
+}
+.footer__title {
+  padding-left: 10px;
+  max-width: 1280px;
+  margin: auto;
+}
+.footer__elements {
+  padding-left: 10px;
+  max-width: 1280px;
+  margin: auto;
 }
 .footer__lists {
   padding: 0;
@@ -20,8 +31,4 @@
   cursor: pointer;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-  .footer {
-    width: 340px;
-  }
-}
+/*Desktop*/
