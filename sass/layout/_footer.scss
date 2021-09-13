@@ -9,12 +9,12 @@
     padding: 0;
     &__title {
         padding-left: 10px;
-        // max-width: 1280px;
+        max-width: 1280px;
         margin: auto;
     }
     &__elements {
         padding-left: 10px;
-        // max-width: 1280px;
+        max-width: 1280px;
         margin: auto;
     }
     &__lists {
@@ -31,8 +31,11 @@
     }
 }
 
-// @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-//     .footer {
-//         padding: 0 0 85px 0;
-//     }
-// }
+/*Desktop*/  
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
+    .restaurants {
+        &_sections {
+        padding: 0 0px 0px 50px;
+        }
+    }
+}

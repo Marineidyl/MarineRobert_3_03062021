@@ -741,7 +741,7 @@ main , header {
         }
     }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
     .functioning {
         &__list {
             width: 990px;
@@ -772,4 +772,20 @@ main , header {
         }
     }
 }
-/*Desktop*/
+/*Desktop*/  
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
+    .functioning {
+        &__list {
+            margin-bottom: 25px;
+            border-radius: 15px;
+            width: 390px;
+        }
+    }
+    .restaurants
+        &__image {
+            width: 1260px;
+        }
+        &__section {
+            width: 1260px;
+        }
+}

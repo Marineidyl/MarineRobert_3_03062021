@@ -324,11 +324,13 @@ a:link {
 
 .footer__title {
   padding-left: 10px;
+  max-width: 1280px;
   margin: auto;
 }
 
 .footer__elements {
   padding-left: 10px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -345,6 +347,13 @@ a:link {
 
 .footer__link:hover {
   cursor: pointer;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
+  .restaurants_sections {
+    padding: 0 0px 0px 50px;
+  }
 }
 
 header {
@@ -1161,7 +1170,7 @@ main, header {
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
   .functioning__list {
     width: 990px;
   }
@@ -1191,6 +1200,21 @@ main, header {
 }
 
 /*Desktop*/
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
+  .functioning__list {
+    margin-bottom: 25px;
+    border-radius: 15px;
+    width: 390px;
+  }
+  .restaurants
+__image {
+    width: 1260px;
+  }
+  __section {
+    width: 1260px;
+  }
+}
+
 body {
   background-color: white;
 }
@@ -1324,10 +1348,6 @@ body {
   transition-duration: .5s;
 }
 
-.order {
-  padding: 45px 0px 50px 0;
-}
-
 /*Mobiles*/
 @media only screen and (min-width: 320px) and (max-width: 359px) {
   .header {
@@ -1440,6 +1460,9 @@ body {
     justify-content: center;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
+  }
+  .menu__blocsections {
+    width: 195px;
   }
 }
 
@@ -1555,6 +1578,9 @@ body {
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
   }
+  .menu__blocsections {
+    width: 235px;
+  }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 383px) {
@@ -1668,6 +1694,9 @@ body {
     justify-content: center;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
+  }
+  .menu__blocsections {
+    width: 248px;
   }
 }
 
@@ -1783,6 +1812,9 @@ body {
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
   }
+  .menu__blocsections {
+    width: 260px;
+  }
 }
 
 @media only screen and (min-width: 410px) and (max-width: 599px) {
@@ -1896,6 +1928,9 @@ body {
     justify-content: center;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
+  }
+  .menu__blocsections {
+    width: 285px;
   }
 }
 
@@ -2467,9 +2502,6 @@ body {
     justify-content: center;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
-  }
-  .order {
-    padding: 45px 0px 50px 0;
   }
 }
 
