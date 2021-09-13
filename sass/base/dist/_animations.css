@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   -webkit-box-pack: center;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: white;
   position: fixed;
   animation: loader 3s linear forwards;
   background-clip: text;
@@ -139,8 +139,6 @@
 }
 
 /*Check*/
-@media only screen and (min-width: 360px) and (max-width: 374px) {
-  .menu__item:hover .menu__confirmation {
-    margin-right: 0;
-  }
+.menu__item:hover .menu__confirmation {
+  margin-right: 0;
 }
