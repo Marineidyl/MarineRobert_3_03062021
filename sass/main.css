@@ -1930,7 +1930,7 @@ body {
     transition-duration: .5s;
   }
   .menu__blocsections {
-    width: 285px;
+    width: 290px;
   }
 }
 
@@ -2047,6 +2047,9 @@ body {
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
   }
+  .menu__blocsections {
+    width: 310px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 799px) {
@@ -2160,6 +2163,9 @@ body {
     justify-content: center;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
+  }
+  .menu__blocsections {
+    width: 305px;
   }
 }
 
@@ -2275,6 +2281,9 @@ body {
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
   }
+  .menu__blocsections {
+    width: 305px;
+  }
 }
 
 @media only screen and (min-width: 834px) and (max-width: 1023px) {
@@ -2389,6 +2398,9 @@ body {
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
   }
+  .menu__blocsections {
+    width: 305px;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
@@ -2502,6 +2514,9 @@ body {
     justify-content: center;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
+  }
+  .menu__blocsections {
+    width: 305px;
   }
 }
 
@@ -2731,6 +2746,9 @@ body {
     justify-content: center;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
+  }
+  .menu__blocsections {
+    width: 305px;
   }
 }
 /*# sourceMappingURL=main.css.map */
