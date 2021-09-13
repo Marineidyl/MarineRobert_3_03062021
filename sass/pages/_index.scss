@@ -11,6 +11,7 @@ main , header {
 .localisation {
     text-align: center;
     background-color: #DDD;
+    padding: 20px 0px;
     &__text {
         background-color: #DDD;
         border-top: solid #DDD 1px;
@@ -234,7 +235,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 360px) and (max-width: 374px) {
     /*Header*/ 
     .header {
@@ -325,7 +325,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 375px) and (max-width: 383px) {
     /*Header*/ 
     .header {
@@ -421,7 +420,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 384px) and (max-width: 409px) {
     /*Header*/ 
     .header {
@@ -518,7 +516,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 410px) and (max-width: 599px) {
     body {
         background-color:rgb(255, 255, 255);
@@ -619,7 +616,6 @@ main , header {
         }
     }
 }
-
 /*Tablets*/ 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
     .functioning {
@@ -652,7 +648,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 799px) {
     .functioning {
         &__list {
@@ -684,7 +679,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 800px) and (max-width: 833px) {
     .functioning {
         &__list {
@@ -716,7 +710,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 834px) and (max-width: 1023px) {
     .functioning {
         &__list {
@@ -748,7 +741,6 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .functioning {
         &__list {
@@ -780,3 +772,4 @@ main , header {
         }
     }
 }
+/*Desktop*/
