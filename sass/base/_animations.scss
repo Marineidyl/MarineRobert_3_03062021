@@ -132,3 +132,11 @@
   margin-right: 0;
 }
 
+.menu {
+    &__checkbox--meal {
+      &:hover {
+        transition: 2.8s;
+        transform: rotate(360deg);
+      }
+    }
+  }

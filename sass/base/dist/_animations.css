@@ -142,3 +142,8 @@
 .menu__item:hover .menu__confirmation {
   margin-right: 0;
 }
+
+.menu__checkbox--meal:hover {
+  transition: 2.8s;
+  transform: rotate(360deg);
+}

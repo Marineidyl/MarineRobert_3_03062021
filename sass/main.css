@@ -218,6 +218,13 @@
   margin-right: 0;
 }
 
+.menu__checkbox--meal:hover {
+  -webkit-transition: 2.8s;
+  transition: 2.8s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 h1, h6 {
   font-family: "Shrikhand", "Roboto", sans-serif;
   text-decoration: none;
@@ -1363,6 +1370,17 @@ body {
   justify-content: center;
   -webkit-transition-duration: .5s;
   transition-duration: .5s;
+}
+
+.menu__checkbox--meal {
+  padding: 20px 20px;
+}
+
+.fa-check.fas {
+  border: 2px solid white;
+  border-radius: 25px;
+  color: #99e2d0;
+  background-color: white;
 }
 
 /*Mobiles*/
