@@ -218,7 +218,7 @@
   margin-right: 0;
 }
 
-.menu__checkbox--meal:hover {
+.menu__item:hover .menu__checkbox--meal {
   -webkit-transition: 2.8s;
   transition: 2.8s;
   -webkit-transform: rotate(360deg);
