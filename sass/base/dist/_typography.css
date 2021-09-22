@@ -47,23 +47,3 @@ a:link {
 .restaurants__descriptiontitle {
   color: black;
 }
-
-@media only screen and (min-width: 3840px) and (max-width: 5119px) {
-  .menu__name {
-    font-size: 30px;
-  }
-  .menu__titlecategorie {
-    font-size: 25px;
-  }
-  .menu__section {
-    font-size: 30px;
-  }
-
-  .order__button {
-    font-size: 30px;
-  }
-
-  .footer {
-    font-size: 35px;
-  }
-}
