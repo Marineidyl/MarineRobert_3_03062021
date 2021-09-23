@@ -589,12 +589,60 @@ main, header {
 
 /*Mobiles*/
 /*Tablets*/
-@media only screen and (min-width: 600px) and (max-width: 1366px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .restaurants__section {
     width: 47%;
   }
   .restaurants__badge {
-    margin-left: 35%;
+    margin-left: 31%;
+  }
+  .restaurants__descriptiontitle {
+    width: 85%;
+  }
+  .restaurants__image {
+    height: 205px;
+  }
+  .restaurants__title {
+    margin: 10px 10px 5px 10px;
+  }
+  .functioning__lists {
+    width: 97%;
+  }
+  .about__title {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .restaurants__section {
+    width: 47%;
+  }
+  .restaurants__badge {
+    margin-left: 34%;
+  }
+  .restaurants__descriptiontitle {
+    width: 85%;
+  }
+  .restaurants__image {
+    height: 205px;
+  }
+  .restaurants__title {
+    margin: 10px 10px 5px 10px;
+  }
+  .functioning__lists {
+    width: 97%;
+  }
+  .about__title {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .restaurants__section {
+    width: 47%;
+  }
+  .restaurants__badge {
+    margin-left: 37%;
   }
   .restaurants__descriptiontitle {
     width: 85%;
@@ -673,6 +721,9 @@ main, header {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .about__title {
+    padding-top: 25px;
   }
 }
 

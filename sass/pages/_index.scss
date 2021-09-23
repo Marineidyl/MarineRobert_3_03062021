@@ -163,13 +163,14 @@ main , header {
 // @media only screen and (min-width: 768px) and (max-width: 799px) {}
 // @media only screen and (min-width: 800px) and (max-width: 833px) {}
 // @media only screen and (min-width: 834px) and (max-width: 1023px) {}
-@media only screen and (min-width: 600px) and (max-width: 1366px) {
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
     .restaurants {
         &__section {
             width: 47%;
         }
         &__badge {
-            margin-left: 35%;
+            margin-left: 31%;
         }
         &__descriptiontitle {
             width: 85%;
@@ -191,10 +192,68 @@ main , header {
             padding-top: 25px;
         }
     }
-
-
-
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .restaurants {
+        &__section {
+            width: 47%;
+        }
+        &__badge {
+            margin-left: 34%;
+        }
+        &__descriptiontitle {
+            width: 85%;
+        }
+        &__image {
+            height: 205px;
+        }
+        &__title {
+            margin: 10px 10px 5px 10px;
+        }
+    }
+    .functioning {
+        &__lists {
+            width: 97%;
+        }
+    }
+    .about {
+        &__title {
+            padding-top: 25px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) { 
+    .restaurants {
+        &__section {
+            width: 47%;
+        }
+        &__badge {
+            margin-left: 37%;
+        }
+        &__descriptiontitle {
+            width: 85%;
+        }
+        &__image {
+            height: 205px;
+        }
+        &__title {
+            margin: 10px 10px 5px 10px;
+        }
+    }
+    .functioning {
+        &__lists {
+            width: 97%;
+        }
+    }
+    .about {
+        &__title {
+            padding-top: 25px;
+        }
+    }
+ }
 
 
 /*Desktop*/
@@ -246,6 +305,11 @@ main , header {
             display: flex;
             justify-content: space-between;
             flex-direction: row;
+        }
+    }
+    .about {
+        &__title {
+            padding-top: 25px;
         }
     }
 }
