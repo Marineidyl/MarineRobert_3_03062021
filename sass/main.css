@@ -538,6 +538,7 @@ main, header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 95%;
 }
 
 .functioning__list {
@@ -552,7 +553,7 @@ main, header {
   margin-bottom: 25px;
   border-radius: 15px;
   background-color: #F2F2F2;
-  width: 365px;
+  width: 100%;
 }
 
 .functioning__number {
@@ -584,6 +585,32 @@ main, header {
   max-width: 1280px;
   margin: auto;
   position: relative;
+}
+
+/*Mobiles*/
+/*Tablets*/
+@media only screen and (min-width: 600px) and (max-width: 1366px) {
+  .restaurants__section {
+    width: 47%;
+  }
+  .restaurants__badge {
+    margin-left: 35%;
+  }
+  .restaurants__descriptiontitle {
+    width: 85%;
+  }
+  .restaurants__image {
+    height: 205px;
+  }
+  .restaurants__title {
+    margin: 10px 10px 5px 10px;
+  }
+  .functioning__lists {
+    width: 97%;
+  }
+  .about__title {
+    padding-top: 25px;
+  }
 }
 
 /*Desktop*/
