@@ -18,7 +18,6 @@ main , header {
         border-bottom: solid #DDD 1px;
         border-left: none;
         border-right: none;
-        width: 90px;
     }
 }
 .about {
@@ -68,9 +67,7 @@ main , header {
     }
     &__sections {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
     }
     &__image {
         width: 100%;
@@ -121,6 +118,7 @@ main , header {
         border-radius: 15px;
         background-color: #F2F2F2;
         width: 100%;
+        box-shadow: 5px 5px 5px rgba(157, 157, 157, 0.24);
     }
     &__number {
         display: -webkit-box;
@@ -130,12 +128,6 @@ main , header {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        padding: initial;
-        margin-bottom: 25px;
-        border-radius: 15px;
-        background-color: #F2F2F2;
-    }
-    &__number {
         border-radius: 15px;
         background-color: #9356DC;
         padding: 6px 10px;
@@ -153,21 +145,50 @@ main , header {
 
 
  /*Mobiles*/ 
-// @media only screen and (min-width: 320px) and (max-width: 359px) {}
-// @media only screen and (min-width: 360px) and (max-width: 374px) {}
-// @media only screen and (min-width: 375px) and (max-width: 383px) {}
-// @media only screen and (min-width: 384px) and (max-width: 409px) {}
-// @media only screen and (min-width: 410px) and (max-width: 599px) {}
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+    .restaurants {
+        &__section {
+            width: 95%;
+            margin: 15px 10px 0px 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__badge {
+            margin-left: 70%;
+            margin-top: -195px;
+            top: auto;
+        }
+        &__descriptiontitle {
+            width: 85%;
+        }
+        &__image {
+            height: 205px;
+        }
+        &__title {
+            margin: 10px 10px 5px 10px;
+        }
+    }
+    .functioning {
+        &__lists {
+            width: 95%;
+        }
+    }
+    .about {
+        &__title {
+            padding-top: 25px;
+        }
+    }
+}
 /*Tablets*/ 
-// @media only screen and (min-width: 600px) and (max-width: 767px) {}
-// @media only screen and (min-width: 768px) and (max-width: 799px) {}
-// @media only screen and (min-width: 800px) and (max-width: 833px) {}
-// @media only screen and (min-width: 834px) and (max-width: 1023px) {}
-
 @media only screen and (min-width: 600px) and (max-width: 767px) {
     .restaurants {
         &__section {
             width: 47%;
+        }
+        &__sections {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
         &__badge {
             margin-left: 31%;
@@ -193,12 +214,15 @@ main , header {
         }
     }
 }
-
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .restaurants {
         &__section {
             width: 47%;
+        }
+        &__sections {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
         &__badge {
             margin-left: 34%;
@@ -224,11 +248,15 @@ main , header {
         }
     }
 }
-
 @media only screen and (min-width: 1024px) and (max-width: 1366px) { 
     .restaurants {
         &__section {
             width: 47%;
+        }
+        &__sections {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
         &__badge {
             margin-left: 37%;
@@ -254,8 +282,6 @@ main , header {
         }
     }
  }
-
-
 /*Desktop*/
 @media only screen and (min-width: 1280px) and (max-width: 5119px) {
     .restaurants {

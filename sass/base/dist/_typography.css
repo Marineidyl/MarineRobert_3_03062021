@@ -47,3 +47,83 @@ a:link {
 .restaurants__descriptiontitle {
   color: black;
 }
+
+.functioning__number {
+  color: white;
+}
+
+.fas.fa-mobile-alt.functioning__iconmobile {
+  color: #8e8e8e;
+}
+
+.fas.fa-list-ul.functioning__iconlist {
+  color: #8e8e8e;
+}
+
+.fas.fa-store.functioning__iconstore {
+  color: #8e8e8e;
+}
+
+/*Mobiles*/
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .localisation {
+    text-align: center;
+    background-color: #DDD;
+  }
+  .localisation__text {
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+/*Tablets*/
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .localisation {
+    text-align: center;
+    background-color: #DDD;
+  }
+  .localisation__text {
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .localisation {
+    text-align: center;
+    background-color: #DDD;
+  }
+  .localisation__text {
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .localisation {
+    text-align: center;
+    background-color: #DDD;
+  }
+  .localisation__text {
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 1280px) and (max-width: 5119px) {
+  .localisation {
+    text-align: center;
+    background-color: #DDD;
+  }
+  .localisation__text {
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

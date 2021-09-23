@@ -20,7 +20,6 @@ main, header {
   border-bottom: solid #DDD 1px;
   border-left: none;
   border-right: none;
-  width: 90px;
 }
 
 .about {
@@ -71,9 +70,7 @@ main, header {
 }
 .restaurants__sections {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
 }
 .restaurants__image {
   width: 100%;
@@ -123,6 +120,7 @@ main, header {
   border-radius: 15px;
   background-color: #F2F2F2;
   width: 100%;
+  box-shadow: 5px 5px 5px rgba(157, 157, 157, 0.24);
 }
 .functioning__number {
   display: -webkit-box;
@@ -132,12 +130,6 @@ main, header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: initial;
-  margin-bottom: 25px;
-  border-radius: 15px;
-  background-color: #F2F2F2;
-}
-.functioning__number {
   border-radius: 15px;
   background-color: #9356DC;
   padding: 6px 10px;
@@ -153,10 +145,45 @@ main, header {
 }
 
 /*Mobiles*/
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .restaurants__section {
+    width: 95%;
+    margin: 15px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurants__badge {
+    margin-left: 70%;
+    margin-top: -195px;
+    top: auto;
+  }
+  .restaurants__descriptiontitle {
+    width: 85%;
+  }
+  .restaurants__image {
+    height: 205px;
+  }
+  .restaurants__title {
+    margin: 10px 10px 5px 10px;
+  }
+
+  .functioning__lists {
+    width: 95%;
+  }
+
+  .about__title {
+    padding-top: 25px;
+  }
+}
 /*Tablets*/
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .restaurants__section {
     width: 47%;
+  }
+  .restaurants__sections {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   .restaurants__badge {
     margin-left: 31%;
@@ -183,6 +210,11 @@ main, header {
   .restaurants__section {
     width: 47%;
   }
+  .restaurants__sections {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   .restaurants__badge {
     margin-left: 34%;
   }
@@ -207,6 +239,11 @@ main, header {
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   .restaurants__section {
     width: 47%;
+  }
+  .restaurants__sections {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   .restaurants__badge {
     margin-left: 37%;
