@@ -132,7 +132,7 @@
   margin-right: 0;
 }
 
-.menu__item:hover .menu__checkbox--meal {
-    transition: 2.8s;
-    transform: rotate(360deg);
+.menu__item:hover .fa-check.fas {
+  transition: 2.8s;
+  transform: rotate(360deg);
 }
