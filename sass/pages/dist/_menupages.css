@@ -36,7 +36,10 @@ body {
 .menu__presentationtext {
   margin: 0;
   padding: 0;
-  height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 80%;
 }
 .menu__presentationtitle {
   margin: 0;
@@ -93,8 +96,6 @@ body {
   justify-content: center;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  padding: 20px 20px;
-  margin: 0 -100% 0 0;
 }
 .menu__blocsections {
   width: 80%;
@@ -164,10 +165,6 @@ body {
   }
   .menu__check {
     width: 340px;
-  }
-  .menu__presentationtext {
-    margin: 0;
-    padding: 0;
   }
   .menu__presentationtitle {
     margin: 0;

@@ -219,8 +219,8 @@
 }
 
 .menu__item:hover .fa-check.fas {
-  -webkit-transition: 2.8s;
-  transition: 2.8s;
+  -webkit-transition: 2s;
+  transition: 2s;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
@@ -917,7 +917,10 @@ body {
 .menu__presentationtext {
   margin: 0;
   padding: 0;
-  height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 80%;
 }
 
 .menu__presentationtitle {
@@ -987,8 +990,6 @@ body {
   justify-content: center;
   -webkit-transition-duration: .5s;
   transition-duration: .5s;
-  padding: 20px 20px;
-  margin: 0 -100% 0 0;
 }
 
 .menu__blocsections {
@@ -1068,10 +1069,6 @@ body {
   }
   .menu__check {
     width: 340px;
-  }
-  .menu__presentationtext {
-    margin: 0;
-    padding: 0;
   }
   .menu__presentationtitle {
     margin: 0;
