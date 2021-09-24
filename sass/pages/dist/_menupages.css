@@ -33,9 +33,6 @@ body {
 .menu__section {
   margin: 10px 10px;
 }
-.menu__check {
-  width: 340px;
-}
 .menu__presentationtext {
   margin: 0;
   padding: 0;
@@ -83,22 +80,6 @@ body {
   text-overflow: ellipsis;
   width: 100%;
   box-shadow: 5px 5px 5px rgba(157, 157, 157, 0.24);
-}
-.menu__confirmation {
-  background-color: #99e2d0;
-  margin: 0 -100% 0 0;
-  width: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
 }
 .menu__blocsections {
   width: 80%;
