@@ -3,7 +3,6 @@
     text-align: center;
     &__image {
         width: 100%;
-        height: 235px;
         object-fit: cover;
     }
     &__text {
@@ -19,12 +18,24 @@
     }
 }
 
-@media only screen and (min-width: 3840px) and (max-width: 5119px) {
+@media only screen and (min-width: 1280px) and (max-width: 5119px) {
     .header {
+        margin: 0;
         &__image {
-            height: 450px;
+            width: 100%;
+            height: 490px;
             object-fit: cover;
         }
+        &__text {
+            width: 100%;
+            margin: 10px 25px 0 0;
+        }
+        &__link {
+            margin: 20px 10px;
+            color: gray;
+        }
+        &__nav {
+            display: flex;
+        }
     }
-    
 }

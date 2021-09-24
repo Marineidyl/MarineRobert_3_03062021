@@ -4,7 +4,6 @@ $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 
-
 h1, h6 {
     font-family: $fonts_shrikhand_roboto;
     text-decoration: none;
@@ -12,26 +11,22 @@ h1, h6 {
 body, html {
     font-family: $font_roboto;
 }
-
 a:link 
 { 
   text-decoration: none;
   list-style-type: none;
 } 
-
 .footer {
   &__title {
     font-family: $fonts_shrikhand_roboto;
   }
 }
-
 .about , .order {
   &__button {
     color: white;
     font-weight: bold;
   }
 }
-
 .header {
   &__text {
       text-align: center;
@@ -41,7 +36,6 @@ a:link
     font-size: 25px;
   }
 }
-
 .menu {
   &__name {
     font-size: 20px;
@@ -55,7 +49,6 @@ a:link
     font-weight: 400;
   }
 }
-
 .restaurants {
   &__descriptiontext {
     color: black; 
@@ -64,10 +57,19 @@ a:link
     color: black;
   }
 }
-
 .functioning {
   &__number {
     color: white;
+  }
+}
+.localisation {
+  text-align: center;
+  background-color: #DDD;
+  &__text {
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
   }
 }
 .fas.fa-mobile-alt.functioning__iconmobile {
@@ -80,67 +82,3 @@ a:link
   color: #8e8e8e;
 }
 
-/*Mobiles*/ 
-@media only screen and (min-width: 320px) and (max-width: 599px) {
-  .localisation {
-    text-align: center;
-    background-color: #DDD;
-    &__text {
-      width: auto;
-      text-align: center;
-      font-size: 18px;
-      font-weight: 700;
-    }
-  }
-}
-
-/*Tablets*/ 
-@media only screen and (min-width: 600px) and (max-width: 767px) {
-  .localisation {
-    text-align: center;
-    background-color: #DDD;
-    &__text {
-      width: auto;
-      text-align: center;
-      font-size: 18px;
-      font-weight: 700;
-    }
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .localisation {
-    text-align: center;
-    background-color: #DDD;
-    &__text {
-      width: auto;
-      text-align: center;
-      font-size: 18px;
-      font-weight: 700;
-    }
-  }
-}
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-  .localisation {
-    text-align: center;
-    background-color: #DDD;
-    &__text {
-      width: auto;
-      text-align: center;
-      font-size: 18px;
-      font-weight: 700;
-    }
-  }
-}
-/*Desktop*/
-@media only screen and (min-width: 1280px) and (max-width: 5119px) {
-  .localisation {
-    text-align: center;
-    background-color: #DDD;
-    &__text {
-      width: auto;
-      text-align: center;
-      font-size: 18px;
-      font-weight: 700;
-    }
-  }
-}

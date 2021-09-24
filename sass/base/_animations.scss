@@ -19,7 +19,6 @@
     }
   }
 }
-
 /* Loading */
 .loading {
   width: 100%;
@@ -131,12 +130,10 @@
 .menu__item:hover .menu__confirmation {
   margin-right: 0;
 }
-
 .menu__item:hover .fa-check.fas {
   transition: 2s;
   transform: rotate(360deg);
 }
-
 // 
 .functioning__list:hover {
   background-color: rgba(174, 106, 230, 0.24);
