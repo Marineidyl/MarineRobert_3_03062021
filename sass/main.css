@@ -250,6 +250,18 @@
   background-color: rgba(174, 106, 230, 0.24);
 }
 
+.functioning__list:hover .fas.fa-mobile-alt.functioning__iconmobile {
+  color: #9356DC;
+}
+
+.functioning__list:hover .fas.fa-list-ul.functioning__iconlist {
+  color: #9356DC;
+}
+
+.functioning__list:hover .fas.fa-store.functioning__iconstore {
+  color: #9356DC;
+}
+
 h1, h6 {
   font-family: "Shrikhand", "Roboto", sans-serif;
   text-decoration: none;
@@ -844,6 +856,10 @@ main, header {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    width: 100%;
+  }
+  .functioning__list {
+    margin-right: 30px;
   }
   .about__title {
     padding-top: 25px;

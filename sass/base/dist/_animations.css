@@ -171,3 +171,15 @@
 .functioning__list:hover {
   background-color: rgba(174, 106, 230, 0.24);
 }
+
+.functioning__list:hover .fas.fa-mobile-alt.functioning__iconmobile {
+  color: #9356DC;
+}
+
+.functioning__list:hover .fas.fa-list-ul.functioning__iconlist {
+  color: #9356DC;
+}
+
+.functioning__list:hover .fas.fa-store.functioning__iconstore {
+  color: #9356DC;
+}
