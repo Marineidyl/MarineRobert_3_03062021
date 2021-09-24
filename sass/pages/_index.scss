@@ -169,6 +169,10 @@ main , header {
     .functioning {
         &__lists {
             width: 95%;
+            margin: 0px 0px 0px 5px;
+        }
+        &__list {
+            width: 96%;
         }
     }
     .about {
@@ -204,6 +208,9 @@ main , header {
     .functioning {
         &__lists {
             width: 97%;
+        }
+        &__list {
+            width: 98%;
         }
     }
     .about {

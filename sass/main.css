@@ -687,6 +687,10 @@ main, header {
   }
   .functioning__lists {
     width: 95%;
+    margin: 0px 0px 0px 5px;
+  }
+  .functioning__list {
+    width: 96%;
   }
   .about__title {
     padding-top: 25px;
@@ -722,6 +726,9 @@ main, header {
   }
   .functioning__lists {
     width: 97%;
+  }
+  .functioning__list {
+    width: 98%;
   }
   .about__title {
     padding-top: 25px;
